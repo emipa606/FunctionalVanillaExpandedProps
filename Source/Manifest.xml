@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+  <version>1.1.1</version>
+  <manifestUri>
+  </manifestUri>
+  <downloadUri>
+  </downloadUri>
+  <loadAfter>
+    <li>LWM.DeepStorage</li>
+    <li>VanillaExpanded.VFEPropsandDecor</li>
+    <li>dame.hotmeals</li>
+  </loadAfter>
+  <showCrossPromotions>true</showCrossPromotions>
+</Manifest>

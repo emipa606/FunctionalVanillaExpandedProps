@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Functional Vanilla Expanded Props</name>
+  <author>Primus the Conquerer</author>
+  <url>
+  </url>
+  <supportedVersions>
+    <li>1.1</li>
+    <li>1.2</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>LWM.DeepStorage</packageId>
+      <displayName>LWM's Deep Storage</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/1617282896</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>VanillaExpanded.VFEPropsandDecor</packageId>
+      <displayName>Vanilla Furniture Expanded - Props and Decor</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2102143149</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <packageId>Primus.FunctionalProps</packageId>
+  <description>Adds functional storage versions to some props from Vanilla Furniture Expanded - Props and Decor. It uses the System from Deep Storage.</description>
+  <loadAfter>
+    <li>LWM.DeepStorage</li>
+    <li>VanillaExpanded.VFEPropsandDecor</li>
+    <li>dame.hotmeals</li>
+  </loadAfter>
+</ModMetaData>

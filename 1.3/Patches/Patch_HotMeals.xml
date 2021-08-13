@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[D] Thermodynamics - Hot Meals</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="VFEPD_OvenHotMeals"]</xpath>
+          <value>
+            <ThingDef ParentName="OvenDeep">
+              <defName>VFEPD_OvenHotMeals</defName>
+              <label>Oven (Powered)</label>
+              <description>A large oven which can heat up your Meals. (HotMeals Mod)</description>
+              <statBases>
+                <MaxHitPoints>60</MaxHitPoints>
+                <WorkToBuild>100</WorkToBuild>
+                <Mass>25</Mass>
+                <Beauty>0</Beauty>
+                <Flammability>0</Flammability>
+                <WorkTableWorkSpeedFactor>4</WorkTableWorkSpeedFactor>
+              </statBases>
+              <designatorDropdown>FunctionalPropsHotMeals</designatorDropdown>
+              <hasInteractionCell>True</hasInteractionCell>
+              <interactionCellOffset>(0,0, 1)</interactionCellOffset>
+              <building>
+                <isMealSource>true</isMealSource>
+              </building>
+              <placeWorkers>
+                <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+              </placeWorkers>
+              <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+              <researchPrerequisites>
+                <li>MicroelectronicsBasics</li>
+              </researchPrerequisites>
+              <costList>
+                <Steel>50</Steel>
+                <ComponentIndustrial>1</ComponentIndustrial>
+              </costList>
+              <comps>
+                <li Class="LWM.DeepStorage.Properties">
+                  <maxNumberStacks>1</maxNumberStacks>
+                  <minTimeStoringTakes>10</minTimeStoringTakes>
+                  <additionalTimeEachStack>10</additionalTimeEachStack>
+                  <showContents>false</showContents>
+                  <overlayType>None</overlayType>
+                </li>
+                <li Class="CompProperties_Power">
+                  <compClass>CompPowerTrader</compClass>
+                  <shortCircuitInRain>true</shortCircuitInRain>
+                  <basePowerConsumption>100</basePowerConsumption>
+                </li>
+                <li Class="CompProperties_Flickable" />
+                <li Class="CompProperties_HeatPusher">
+                  <compClass>CompHeatPusherPowered</compClass>
+                  <heatPerSecond>1</heatPerSecond>
+                </li>
+              </comps>
+            </ThingDef>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="VFEPD_MicrowaveHotMeals"]</xpath>
+          <value>
+            <ThingDef ParentName="MicrowaveDeep">
+              <defName>VFEPD_MicrowaveHotMeals</defName>
+              <label>Microwave (Powered)</label>
+              <description>A tabletop microwave device which can quickly heat up your Meals. (HotMeals Mod)</description>
+              <statBases>
+                <MaxHitPoints>50</MaxHitPoints>
+                <WorkToBuild>100</WorkToBuild>
+                <Mass>15</Mass>
+                <Beauty>0</Beauty>
+                <Flammability>0</Flammability>
+                <WorkTableWorkSpeedFactor>4</WorkTableWorkSpeedFactor>
+              </statBases>
+              <designatorDropdown>FunctionalPropsHotMeals</designatorDropdown>
+              <hasInteractionCell>True</hasInteractionCell>
+              <interactionCellOffset>(0,0, 1)</interactionCellOffset>
+              <building>
+                <isMealSource>true</isMealSource>
+              </building>
+              <placeWorkers>
+                <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+              </placeWorkers>
+              <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+              <researchPrerequisites>
+                <li>MicroelectronicsBasics</li>
+              </researchPrerequisites>
+              <costList>
+                <Steel>50</Steel>
+                <ComponentIndustrial>1</ComponentIndustrial>
+              </costList>
+              <comps>
+                <li Class="LWM.DeepStorage.Properties">
+                  <maxNumberStacks>1</maxNumberStacks>
+                  <minTimeStoringTakes>10</minTimeStoringTakes>
+                  <additionalTimeEachStack>10</additionalTimeEachStack>
+                  <showContents>false</showContents>
+                  <overlayType>None</overlayType>
+                </li>
+                <li Class="CompProperties_Power">
+                  <compClass>CompPowerTrader</compClass>
+                  <shortCircuitInRain>true</shortCircuitInRain>
+                  <basePowerConsumption>100</basePowerConsumption>
+                </li>
+                <li Class="CompProperties_Flickable" />
+                <li Class="CompProperties_HeatPusher">
+                  <compClass>CompHeatPusherPowered</compClass>
+                  <heatPerSecond>1</heatPerSecond>
+                </li>
+              </comps>
+            </ThingDef>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
