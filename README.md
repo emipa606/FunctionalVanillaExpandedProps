@@ -1,16 +1,16 @@
 # FunctionalVanillaExpandedProps
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Primus the Conquerers mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2103216991
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
-# I unfortunately don&apos;t have the time anymore to play and update my mods. If anyone wants to update/change the mod. Feel free to do that. :)
+# I unfortunately don't have the time anymore to play and update my mods. If anyone wants to update/change the mod. Feel free to do that. :)
 
 
 # Description
@@ -27,7 +27,7 @@ Please put the Mod [u]after[/u] VFE - Props and Deep Storage in your Load Order.
 
 
 A Patch for https://steamcommunity.com/sharedfiles/filedetails/?id=2110968173]Thermodynamics - Hot Meals is included:
- -&gt; When the Mod is active it will add a seperate powered Version of the Microwave and Oven.
+ - When the Mod is active it will add a seperate powered Version of the Microwave and Oven.
 
 
 # Credits
@@ -36,7 +36,7 @@ A Patch for https://steamcommunity.com/sharedfiles/filedetails/?id=2110968173]Th
 https://steamcommunity.com/sharedfiles/filedetails/?id=1617282896]Deep Storage
 https://steamcommunity.com/sharedfiles/filedetails/?id=2102143149]Vanilla Furniture Expanded - Props and Decor
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 

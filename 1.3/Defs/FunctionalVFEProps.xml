@@ -247,6 +247,92 @@
     </comps>
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_WaterTankDeep</defName>
+    <label>water tank</label>
+    <description>An industrial water tank.</description>
+    <graphicData>
+      <texPath>Things/Building/IndustrialProps/WaterTank/WaterTank</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.30, 0.40)</volume>
+      </shadowData>
+    </graphicData>
+    <fillPercent>0.5</fillPercent>
+    <statBases>
+      <MaxHitPoints>10</MaxHitPoints>
+      <WorkToBuild>50</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>0.1</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>5</Steel>
+    </costList>
+    <designatorDropdown>IndustrialProps</designatorDropdown>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>2</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_GasTankDeep</defName>
+    <label>gas tank</label>
+    <description>A large metal gas tank.</description>
+    <graphicData>
+      <texPath>Things/Building/IndustrialProps/GasTank</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <drawSize>(6,6)</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.30, 0.40)</volume>
+      </shadowData>
+    </graphicData>
+    <fillPercent>0.2</fillPercent>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>200</WorkToBuild>
+      <Mass>30</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(2,2)</size>
+    <costList>
+      <Steel>30</Steel>
+    </costList>
+    <designatorDropdown>IndustrialProps</designatorDropdown>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>8</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_BarrelGreenDeep</defName>
     <label>green barrel</label>
     <description>A green metal barrel.</description>
@@ -304,6 +390,51 @@
         <volume>(0.55, 0.30, 0.40)</volume>
       </shadowData>
       <color>(123,123,123)</color>
+    </graphicData>
+    <fillPercent>0.2</fillPercent>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>70</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>15</Steel>
+    </costList>
+    <designatorDropdown>IndustrialProps</designatorDropdown>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>2</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_BarrelRedDeep</defName>
+    <label>red barrel</label>
+    <description>A red metal barrel.</description>
+    <graphicData>
+      <texPath>Things/Building/IndustrialProps/Barrel/Barrel</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1,1)</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.30, 0.40)</volume>
+      </shadowData>
+      <color>(168,124,120)</color>
     </graphicData>
     <fillPercent>0.2</fillPercent>
     <statBases>
@@ -1069,7 +1200,7 @@
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_SpacerStorageDeep</defName>
-    <label>dvanced storage device</label>
+    <label>advanced storage device</label>
     <description>A large, multi-chamber advanced storage device.</description>
     <graphicData>
       <texPath>Things/Building/SpacerProps/SpacerStorage/SpacerStorage</texPath>
