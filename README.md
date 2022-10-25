@@ -5,6 +5,10 @@
 Update of Primus the Conquerers mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2103216991
 
+- Added missing red barrel as well as gas tank and water tank
+
+Not compatible with https://steamcommunity.com/sharedfiles/filedetails/?id=2803450640]Docworld Functional Vanilla Props Expanded Continued
+
 ![Image](https://i.imgur.com/pufA0kM.png)
 
 	
@@ -46,6 +50,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2102143149]Vanilla Furnit
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 
