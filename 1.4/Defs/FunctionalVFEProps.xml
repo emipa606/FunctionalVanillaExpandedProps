@@ -4,24 +4,34 @@
     <defName>FunctionalPropsHotMeals</defName>
   </DesignatorDropdownGroupDef>
   <!-- ParentName -->
-  <ThingDef ParentName="BuildingBase" Name="VEFunctional" Abstract="True">
-    <altitudeLayer>Building</altitudeLayer>
-    <researchPrerequisites>
-      <li>ComplexFurniture</li>
-    </researchPrerequisites>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <thingCategories>
-      <li>BuildingsFurniture</li>
-    </thingCategories>
-    <thingClass>Building_Storage</thingClass>
-    <passability>PassThroughOnly</passability>
-    <designationCategory>LWM_DS_Storage</designationCategory>
-    <inspectorTabs>
-      <li>ITab_Storage</li>
-      <li>LWM.DeepStorage.ITab_DeepStorage_Inventory</li>
-    </inspectorTabs>
-    <pathCost>20</pathCost>
-    <drawGUIOverlay>true</drawGUIOverlay>
+  <ThingDef ParentName="LWM_DeepStorage" Name="VEFunctional" Abstract="True">
+    <!-- <altitudeLayer>Building</altitudeLayer> -->
+    <!-- <researchPrerequisites> -->
+    <!-- <li>ComplexFurniture</li> -->
+    <!-- </researchPrerequisites> -->
+    <!-- <minifiedDef>MinifiedThing</minifiedDef> -->
+    <!-- <thingCategories> -->
+    <!-- <li>BuildingsFurniture</li> -->
+    <!-- </thingCategories> -->
+    <!-- <thingClass>Building_Storage</thingClass> -->
+    <!-- <passability>PassThroughOnly</passability> -->
+    <!-- <designationCategory>LWM_DS_Storage</designationCategory> -->
+    <!-- <building> -->
+    <!-- <preventDeteriorationOnTop>true</preventDeteriorationOnTop> -->
+    <!-- <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty> -->
+    <!-- <blueprintClass>Blueprint_Storage</blueprintClass> -->
+    <!-- <defaultStorageSettings> -->
+    <!-- <priority>Important</priority> -->
+    <!-- <filter> -->
+    <!-- </filter> -->
+    <!-- </defaultStorageSettings> -->
+    <!-- </building> -->
+    <!-- <inspectorTabs> -->
+    <!-- <li>ITab_Storage</li> -->
+    <!-- <li>LWM.DeepStorage.ITab_DeepStorage_Inventory</li> -->
+    <!-- </inspectorTabs> -->
+    <!-- <pathCost>20</pathCost> -->
+    <!-- <drawGUIOverlay>true</drawGUIOverlay> -->
     <uiIconScale>1</uiIconScale>
   </ThingDef>
   <!-- Industrial Props -->
@@ -144,8 +154,6 @@
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
       <defaultStorageSettings>
         <priority>Important</priority>
-        <filter>
-        </filter>
       </defaultStorageSettings>
     </building>
     <comps>

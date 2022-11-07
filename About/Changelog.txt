@@ -1,5 +1,8 @@
 # Changelog for FunctionalVanillaExpandedProps
 
+1.4.2 - Storages now inherits LWM baseDef as it doesnt work otherwise, for some reason.
+
+
 1.4.1 - Mod updated for 1.4 and passed autotests
 
 
