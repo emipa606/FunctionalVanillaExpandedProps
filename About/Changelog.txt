@@ -1,5 +1,8 @@
 # Changelog for FunctionalVanillaExpandedProps
 
+1.4.3 - Props should now be built the right way.
+
+
 1.4.2 - Storages now inherits LWM baseDef as it doesnt work otherwise, for some reason.
 
 

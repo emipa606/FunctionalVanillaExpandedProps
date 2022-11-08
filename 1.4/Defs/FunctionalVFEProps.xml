@@ -55,6 +55,7 @@
       <Mass>5</Mass>
       <Flammability>0.7</Flammability>
     </statBases>
+    <defaultPlacingRot>North</defaultPlacingRot>
     <filthLeaving>Filth_Trash</filthLeaving>
     <size>(1,1)</size>
     <costList>
@@ -585,6 +586,7 @@
       <Mass>20</Mass>
       <Flammability>1</Flammability>
     </statBases>
+    <defaultPlacingRot>North</defaultPlacingRot>
     <size>(2,2)</size>
     <costList>
       <WoodLog>50</WoodLog>
@@ -629,6 +631,7 @@
       <Mass>50</Mass>
       <Flammability>0.7</Flammability>
     </statBases>
+    <defaultPlacingRot>North</defaultPlacingRot>
     <size>(2,2)</size>
     <costList>
       <WoodLog>65</WoodLog>
@@ -678,6 +681,7 @@
       <WoodLog>20</WoodLog>
     </costList>
     <designatorDropdown>IndustrialProps</designatorDropdown>
+    <defaultPlacingRot>North</defaultPlacingRot>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -717,6 +721,7 @@
       <Mass>50</Mass>
       <Flammability>0</Flammability>
     </statBases>
+    <defaultPlacingRot>North</defaultPlacingRot>
     <size>(2,2)</size>
     <costList>
       <Steel>30</Steel>
@@ -763,6 +768,7 @@
       <Mass>50</Mass>
       <Flammability>0</Flammability>
     </statBases>
+    <defaultPlacingRot>North</defaultPlacingRot>
     <size>(2,2)</size>
     <costList>
       <Steel>30</Steel>
@@ -809,6 +815,7 @@
       <Mass>50</Mass>
       <Flammability>0</Flammability>
     </statBases>
+    <defaultPlacingRot>North</defaultPlacingRot>
     <size>(2,2)</size>
     <costList>
       <Steel>30</Steel>
@@ -855,6 +862,7 @@
       <Mass>50</Mass>
       <Flammability>0</Flammability>
     </statBases>
+    <defaultPlacingRot>North</defaultPlacingRot>
     <size>(2,2)</size>
     <costList>
       <Steel>30</Steel>
@@ -1182,6 +1190,7 @@
       <Flammability>0.7</Flammability>
     </statBases>
     <size>(2,2)</size>
+    <defaultPlacingRot>North</defaultPlacingRot>
     <costList>
       <Steel>40</Steel>
       <Plasteel>25</Plasteel>
@@ -1358,6 +1367,7 @@
     <costList>
       <Steel>5</Steel>
     </costList>
+    <defaultPlacingRot>North</defaultPlacingRot>
     <designatorDropdown>KitchenProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
