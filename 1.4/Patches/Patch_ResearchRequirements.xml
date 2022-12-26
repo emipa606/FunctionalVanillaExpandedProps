@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ResearchProjectDef[defName="IndustrialProps" or defName="VehicleProps"]</xpath>
+    <value>
+      <prerequisites>
+        <li>Machining</li>
+      </prerequisites>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ResearchProjectDef[defName="PlantProps"]</xpath>
+    <value>
+      <prerequisites>
+        <li>TreeSowing</li>
+      </prerequisites>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ResearchProjectDef[defName="MedievalProps"]</xpath>
+    <value>
+      <prerequisites>
+        <li>Smithing</li>
+      </prerequisites>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ResearchProjectDef[defName="PowerProps" or defName="KitchenProps"]</xpath>
+    <value>
+      <prerequisites>
+        <li>Electricity</li>
+      </prerequisites>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ResearchProjectDef[defName="DecalsProps"]</xpath>
+    <value>
+      <prerequisites>
+        <li>CarpetMaking</li>
+      </prerequisites>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ResearchProjectDef[defName="FurnitureProps"]</xpath>
+    <value>
+      <prerequisites>
+        <li>ComplexFurniture</li>
+      </prerequisites>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ResearchProjectDef[defName="SpaceshipProps"]</xpath>
+    <value>
+      <prerequisites>
+        <li>ShipBasics</li>
+      </prerequisites>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ResearchProjectDef[defName="SpacerProps"]</xpath>
+    <value>
+      <prerequisites>
+        <li>MicroelectronicsBasics</li>
+      </prerequisites>
+    </value>
+  </Operation>
+</Patch>

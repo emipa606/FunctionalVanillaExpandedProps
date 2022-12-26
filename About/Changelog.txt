@@ -1,5 +1,8 @@
 # Changelog for FunctionalVanillaExpandedProps
 
+1.4.4 - Added research-requirements for the VFE props-research. Seemed silly that tribals could build fake spaceships.
+
+
 1.4.3 - Props should now be built the right way.
 
 

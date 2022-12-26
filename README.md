@@ -54,3 +54,4 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2102143149]Vanilla Furnit
 
 
 
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2574097280]Last updated 2022-12-26
