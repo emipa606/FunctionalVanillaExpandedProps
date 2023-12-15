@@ -5,39 +5,12 @@
   </DesignatorDropdownGroupDef>
   <!-- ParentName -->
   <ThingDef ParentName="LWM_DeepStorage" Name="VEFunctional" Abstract="True">
-    <!-- <altitudeLayer>Building</altitudeLayer> -->
-    <!-- <researchPrerequisites> -->
-    <!-- <li>ComplexFurniture</li> -->
-    <!-- </researchPrerequisites> -->
-    <!-- <minifiedDef>MinifiedThing</minifiedDef> -->
-    <!-- <thingCategories> -->
-    <!-- <li>BuildingsFurniture</li> -->
-    <!-- </thingCategories> -->
-    <!-- <thingClass>Building_Storage</thingClass> -->
-    <!-- <passability>PassThroughOnly</passability> -->
-    <!-- <designationCategory>LWM_DS_Storage</designationCategory> -->
-    <!-- <building> -->
-    <!-- <preventDeteriorationOnTop>true</preventDeteriorationOnTop> -->
-    <!-- <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty> -->
-    <!-- <blueprintClass>Blueprint_Storage</blueprintClass> -->
-    <!-- <defaultStorageSettings> -->
-    <!-- <priority>Important</priority> -->
-    <!-- <filter> -->
-    <!-- </filter> -->
-    <!-- </defaultStorageSettings> -->
-    <!-- </building> -->
-    <!-- <inspectorTabs> -->
-    <!-- <li>ITab_Storage</li> -->
-    <!-- <li>LWM.DeepStorage.ITab_DeepStorage_Inventory</li> -->
-    <!-- </inspectorTabs> -->
-    <!-- <pathCost>20</pathCost> -->
-    <!-- <drawGUIOverlay>true</drawGUIOverlay> -->
     <uiIconScale>1</uiIconScale>
   </ThingDef>
   <!-- Industrial Props -->
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_BinBagDeep</defName>
-    <label>bin bag</label>
+    <label>functional bin bag</label>
     <description>A black bag containing various sort of rubbish.</description>
     <graphicData>
       <texPath>Things/Building/IndustrialProps/BinBag</texPath>
@@ -61,7 +34,6 @@
     <costList>
       <Steel>10</Steel>
     </costList>
-    <designatorDropdown>IndustrialProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -80,15 +52,19 @@
         <overlayType>None</overlayType>
       </li>
     </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_BoxLargeDeep</defName>
-    <label>large wooden box</label>
+    <label>functional large wooden box</label>
     <description>A large wooden box with various content.</description>
     <graphicData>
       <texPath>Things/Building/IndustrialProps/BoxLarge/BoxLarge</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(1,1)</drawSize>
+      <color>(255,207,174)</color>
       <shadowData>
         <volume>(0.55, 0.30, 0.40)</volume>
       </shadowData>
@@ -105,7 +81,6 @@
     <costList>
       <WoodLog>25</WoodLog>
     </costList>
-    <designatorDropdown>IndustrialProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -124,14 +99,18 @@
         <overlayType>None</overlayType>
       </li>
     </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_BoxSmallDeep</defName>
-    <label>small wooden box</label>
+    <label>functional small wooden box</label>
     <description>A small wooden box with various content.</description>
     <graphicData>
       <texPath>Things/Building/IndustrialProps/BoxSmall/BoxSmall</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
+      <color>(255,207,174)</color>
       <drawSize>(1,1)</drawSize>
       <shadowData>
         <volume>(0.55, 0.30, 0.40)</volume>
@@ -149,7 +128,6 @@
     <costList>
       <WoodLog>15</WoodLog>
     </costList>
-    <designatorDropdown>IndustrialProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -166,10 +144,13 @@
         <overlayType>None</overlayType>
       </li>
     </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_CardboardBoxLargeDeep</defName>
-    <label>large cardboard box</label>
+    <label>functional large cardboard box</label>
     <description>A large cardboard box with various content.</description>
     <graphicData>
       <texPath>Things/Building/IndustrialProps/CardboardLarge/CardboardLarge</texPath>
@@ -191,7 +172,6 @@
     <costList>
       <WoodLog>15</WoodLog>
     </costList>
-    <designatorDropdown>IndustrialProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -210,10 +190,13 @@
         <overlayType>None</overlayType>
       </li>
     </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_CardboardBoxSmallDeep</defName>
-    <label>small cardboard box</label>
+    <label>functional small cardboard box</label>
     <description>A small cardboard box with various content.</description>
     <graphicData>
       <texPath>Things/Building/IndustrialProps/CardboardSmall/CardboardSmall</texPath>
@@ -235,7 +218,6 @@
     <costList>
       <WoodLog>10</WoodLog>
     </costList>
-    <designatorDropdown>IndustrialProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -254,10 +236,13 @@
         <overlayType>None</overlayType>
       </li>
     </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_WaterTankDeep</defName>
-    <label>water tank</label>
+    <label>functional water tank</label>
     <description>An industrial water tank.</description>
     <graphicData>
       <texPath>Things/Building/IndustrialProps/WaterTank/WaterTank</texPath>
@@ -278,7 +263,6 @@
     <costList>
       <Steel>5</Steel>
     </costList>
-    <designatorDropdown>IndustrialProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -297,10 +281,13 @@
         <overlayType>None</overlayType>
       </li>
     </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_GasTankDeep</defName>
-    <label>gas tank</label>
+    <label>functional gas tank</label>
     <description>A large metal gas tank.</description>
     <graphicData>
       <texPath>Things/Building/IndustrialProps/GasTank</texPath>
@@ -321,7 +308,6 @@
     <costList>
       <Steel>30</Steel>
     </costList>
-    <designatorDropdown>IndustrialProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -340,10 +326,13 @@
         <overlayType>None</overlayType>
       </li>
     </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_BarrelGreenDeep</defName>
-    <label>green barrel</label>
+    <label>functional green barrel</label>
     <description>A green metal barrel.</description>
     <graphicData>
       <texPath>Things/Building/IndustrialProps/Barrel/Barrel</texPath>
@@ -366,7 +355,6 @@
     <costList>
       <Steel>15</Steel>
     </costList>
-    <designatorDropdown>IndustrialProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -385,10 +373,13 @@
         <overlayType>None</overlayType>
       </li>
     </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_BarrelGreyDeep</defName>
-    <label>grey barrel</label>
+    <label>functional grey barrel</label>
     <description>A grey metal barrel.</description>
     <graphicData>
       <texPath>Things/Building/IndustrialProps/Barrel/Barrel</texPath>
@@ -411,7 +402,6 @@
     <costList>
       <Steel>15</Steel>
     </costList>
-    <designatorDropdown>IndustrialProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -430,10 +420,13 @@
         <overlayType>None</overlayType>
       </li>
     </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_BarrelRedDeep</defName>
-    <label>red barrel</label>
+    <label>functional red barrel</label>
     <description>A red metal barrel.</description>
     <graphicData>
       <texPath>Things/Building/IndustrialProps/Barrel/Barrel</texPath>
@@ -456,7 +449,6 @@
     <costList>
       <Steel>15</Steel>
     </costList>
-    <designatorDropdown>IndustrialProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -475,10 +467,13 @@
         <overlayType>None</overlayType>
       </li>
     </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_BarrelYellowDeep</defName>
-    <label>yellow barrel</label>
+    <label>functional yellow barrel</label>
     <description>A yellow metal barrel.</description>
     <graphicData>
       <texPath>Things/Building/IndustrialProps/Barrel/Barrel</texPath>
@@ -501,7 +496,6 @@
     <costList>
       <Steel>15</Steel>
     </costList>
-    <designatorDropdown>IndustrialProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -520,10 +514,13 @@
         <overlayType>None</overlayType>
       </li>
     </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_BarrelBlueDeep</defName>
-    <label>blue barrel</label>
+    <label>functional blue barrel</label>
     <description>A blue metal barrel.</description>
     <graphicData>
       <texPath>Things/Building/IndustrialProps/Barrel/Barrel</texPath>
@@ -546,7 +543,6 @@
     <costList>
       <Steel>15</Steel>
     </costList>
-    <designatorDropdown>IndustrialProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -565,10 +561,13 @@
         <overlayType>None</overlayType>
       </li>
     </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_PalletCardboardDeep</defName>
-    <label>pallet with cardboard boxes</label>
+    <label>functional pallet with cardboard boxes</label>
     <description>A large pallet with several cardboard boxes.</description>
     <graphicData>
       <texPath>Things/Building/IndustrialProps/PalletCardboard</texPath>
@@ -591,7 +590,6 @@
     <costList>
       <WoodLog>50</WoodLog>
     </costList>
-    <designatorDropdown>IndustrialProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -610,15 +608,20 @@
         <overlayType>None</overlayType>
       </li>
     </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_PalletBoxesDeep</defName>
-    <label>pallet with wooden boxes</label>
+    <label>functional pallet with wooden boxes</label>
     <description>A large pallet with several wooden boxes.</description>
     <graphicData>
       <texPath>Things/Building/IndustrialProps/PalletBoxes</texPath>
       <graphicClass>Graphic_Random</graphicClass>
       <drawSize>(3,3)</drawSize>
+      <color>(255,207,174)</color>
+      <shaderType>CutoutComplex</shaderType>
       <shadowData>
         <volume>(0.55, 0.30, 0.40)</volume>
       </shadowData>
@@ -636,7 +639,6 @@
     <costList>
       <WoodLog>65</WoodLog>
     </costList>
-    <designatorDropdown>IndustrialProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -655,10 +657,13 @@
         <overlayType>None</overlayType>
       </li>
     </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_PalletDeep</defName>
-    <label>pallet</label>
+    <label>functional pallet</label>
     <description>A large pallet.</description>
     <graphicData>
       <texPath>Things/Building/IndustrialProps/Pallet/Pallet</texPath>
@@ -680,7 +685,6 @@
     <costList>
       <WoodLog>20</WoodLog>
     </costList>
-    <designatorDropdown>IndustrialProps</designatorDropdown>
     <defaultPlacingRot>North</defaultPlacingRot>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
@@ -699,10 +703,13 @@
         <overlayType>SumOfItemsPerCell</overlayType>
       </li>
     </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_PalletBarrelGreyDeep</defName>
-    <label>pallet with grey barrels</label>
+    <label>functional pallet with grey barrels</label>
     <description>A grey metal barrel on a wooden pallet.</description>
     <graphicData>
       <texPath>Things/Building/IndustrialProps/PalletBarrels</texPath>
@@ -727,7 +734,6 @@
       <Steel>30</Steel>
       <WoodLog>20</WoodLog>
     </costList>
-    <designatorDropdown>IndustrialProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -746,10 +752,13 @@
         <overlayType>None</overlayType>
       </li>
     </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_PalletBarrelYellowDeep</defName>
-    <label>pallet with yellow barrels</label>
+    <label>functional pallet with yellow barrels</label>
     <description>A yellow metal barrel on a wooden pallet.</description>
     <graphicData>
       <texPath>Things/Building/IndustrialProps/PalletBarrels</texPath>
@@ -774,7 +783,6 @@
       <Steel>30</Steel>
       <WoodLog>20</WoodLog>
     </costList>
-    <designatorDropdown>IndustrialProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -793,10 +801,13 @@
         <overlayType>None</overlayType>
       </li>
     </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_PalletBarrelBlueDeep</defName>
-    <label>pallet with blue barrels</label>
+    <label>functional pallet with blue barrels</label>
     <description>A blue metal barrel on a wooden pallet.</description>
     <graphicData>
       <texPath>Things/Building/IndustrialProps/PalletBarrels</texPath>
@@ -821,7 +832,6 @@
       <Steel>30</Steel>
       <WoodLog>20</WoodLog>
     </costList>
-    <designatorDropdown>IndustrialProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -840,10 +850,13 @@
         <overlayType>None</overlayType>
       </li>
     </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_PalletBarrelGreenDeep</defName>
-    <label>pallet with green barrels</label>
+    <label>functional pallet with green barrels</label>
     <description>A green metal barrel on a wooden pallet.</description>
     <graphicData>
       <texPath>Things/Building/IndustrialProps/PalletBarrels</texPath>
@@ -868,7 +881,6 @@
       <Steel>30</Steel>
       <WoodLog>20</WoodLog>
     </costList>
-    <designatorDropdown>IndustrialProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -887,10 +899,13 @@
         <overlayType>None</overlayType>
       </li>
     </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_ContainerGreyDeep</defName>
-    <label>grey cargo container</label>
+    <label>functional grey cargo container</label>
     <description>A grey metal cargo container. Cannot hold roof.</description>
     <graphicData>
       <texPath>Things/Building/IndustrialProps/ShippingContainer/ShippingContainer</texPath>
@@ -918,7 +933,6 @@
     <costList>
       <Steel>125</Steel>
     </costList>
-    <designatorDropdown>IndustrialProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -937,10 +951,65 @@
         <overlayType>None</overlayType>
       </li>
     </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_ContainerGreenDeep</defName>
+    <label>functional cargo container</label>
+    <description>A metal cargo container. Impassable. Cannot hold roof.</description>
+    <graphicData>
+      <texPath>Things/Building/IndustrialProps/ShippingContainer/ShippingContainer</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2.5,4)</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.30, 0.40)</volume>
+      </shadowData>
+      <color>(117,169,119)</color>
+    </graphicData>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>True</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <fillPercent>1</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <pathCost>100</pathCost>
+    <statBases>
+      <MaxHitPoints>600</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>100</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(2,4)</size>
+    <costList>
+      <Steel>125</Steel>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>4</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_ContainerRedDeep</defName>
-    <label>red cargo container</label>
+    <label>functional red cargo container</label>
     <description>A red metal cargo container. Cannot hold roof.</description>
     <graphicData>
       <texPath>Things/Building/IndustrialProps/ShippingContainer/ShippingContainer</texPath>
@@ -968,7 +1037,6 @@
       <Steel>125</Steel>
     </costList>
     <pathCost>100</pathCost>
-    <designatorDropdown>IndustrialProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -987,10 +1055,13 @@
         <overlayType>None</overlayType>
       </li>
     </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_ContainerYellowDeep</defName>
-    <label>yellow cargo container</label>
+    <label>functional yellow cargo container</label>
     <description>A yellow metal cargo container. Cannot hold roof.</description>
     <graphicData>
       <texPath>Things/Building/IndustrialProps/ShippingContainer/ShippingContainer</texPath>
@@ -1018,7 +1089,6 @@
       <Steel>125</Steel>
     </costList>
     <pathCost>100</pathCost>
-    <designatorDropdown>IndustrialProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -1037,10 +1107,13 @@
         <overlayType>None</overlayType>
       </li>
     </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_ContainerBlueDeep</defName>
-    <label>blue cargo container</label>
+    <label>functional blue cargo container</label>
     <description>A blue metal cargo container. Cannot hold roof.</description>
     <graphicData>
       <texPath>Things/Building/IndustrialProps/ShippingContainer/ShippingContainer</texPath>
@@ -1068,7 +1141,6 @@
       <Steel>125</Steel>
     </costList>
     <pathCost>100</pathCost>
-    <designatorDropdown>IndustrialProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -1087,10 +1159,13 @@
         <overlayType>None</overlayType>
       </li>
     </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_SpacerContainerDeep</defName>
-    <label>spacer container</label>
+    <label>functional spacer container</label>
     <description>A medium sized, triple sealed, password protected box.</description>
     <graphicData>
       <texPath>Things/Building/SpacerProps/SpacerContainer/SpacerContainer</texPath>
@@ -1110,7 +1185,6 @@
       <Steel>15</Steel>
       <Plasteel>10</Plasteel>
     </costList>
-    <designatorDropdown>SpacerProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -1129,10 +1203,13 @@
         <overlayType>None</overlayType>
       </li>
     </comps>
+    <researchPrerequisites Inherit="False">
+      <li>ShipBasics</li>
+    </researchPrerequisites>
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_SpacerContainerLargeDeep</defName>
-    <label>spacer container large</label>
+    <label>functional spacer container large</label>
     <description>A large sized, triple sealed, password protected box.</description>
     <graphicData>
       <texPath>Things/Building/SpacerProps/SpacerContainerLarge/SpacerContainerLarge</texPath>
@@ -1152,7 +1229,6 @@
       <Steel>25</Steel>
       <Plasteel>15</Plasteel>
     </costList>
-    <designatorDropdown>SpacerProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -1171,10 +1247,13 @@
         <overlayType>None</overlayType>
       </li>
     </comps>
+    <researchPrerequisites Inherit="False">
+      <li>ShipBasics</li>
+    </researchPrerequisites>
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_SpacerContainerStackDeep</defName>
-    <label>spacer container stack</label>
+    <label>functional spacer container stack</label>
     <description>A large stack of different sized, triple sealed, password protected boxes.</description>
     <graphicData>
       <texPath>Things/Building/SpacerProps/SpacerContainerStack</texPath>
@@ -1195,7 +1274,6 @@
       <Steel>40</Steel>
       <Plasteel>25</Plasteel>
     </costList>
-    <designatorDropdown>SpacerProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -1214,10 +1292,13 @@
         <overlayType>None</overlayType>
       </li>
     </comps>
+    <researchPrerequisites Inherit="False">
+      <li>ShipBasics</li>
+    </researchPrerequisites>
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_SpacerStorageDeep</defName>
-    <label>advanced storage device</label>
+    <label>functional advanced storage device</label>
     <description>A large, multi-chamber advanced storage device.</description>
     <graphicData>
       <texPath>Things/Building/SpacerProps/SpacerStorage/SpacerStorage</texPath>
@@ -1238,7 +1319,6 @@
       <Plasteel>35</Plasteel>
       <ComponentSpacer>1</ComponentSpacer>
     </costList>
-    <designatorDropdown>SpacerProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -1257,11 +1337,14 @@
         <overlayType>None</overlayType>
       </li>
     </comps>
+    <researchPrerequisites Inherit="False">
+      <li>ShipBasics</li>
+    </researchPrerequisites>
   </ThingDef>
   <!-- Kitchen Props -->
   <ThingDef ParentName="VEFunctional" Name="MicrowaveDeep">
     <defName>VFEPD_MicrowaveDeep</defName>
-    <label>Microwave</label>
+    <label>functional microwave</label>
     <description>A tabletop microwave device.</description>
     <graphicData>
       <texPath>Things/Building/KitchenProps/Microwave/Microwave</texPath>
@@ -1282,7 +1365,6 @@
     <costList>
       <Steel>15</Steel>
     </costList>
-    <designatorDropdown>KitchenProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -1301,10 +1383,13 @@
         <overlayType>None</overlayType>
       </li>
     </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Electricity</li>
+    </researchPrerequisites>
   </ThingDef>
   <ThingDef ParentName="VEFunctional" Name="OvenDeep">
     <defName>VFEPD_OvenDeep</defName>
-    <label>oven</label>
+    <label>functional oven</label>
     <description>A large oven.</description>
     <graphicData>
       <texPath>Things/Building/KitchenProps/Oven/Oven</texPath>
@@ -1325,7 +1410,6 @@
     <costList>
       <Steel>20</Steel>
     </costList>
-    <designatorDropdown>KitchenProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -1344,10 +1428,13 @@
         <overlayType>None</overlayType>
       </li>
     </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Electricity</li>
+    </researchPrerequisites>
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_FoodTrolleyDeep</defName>
-    <label>food trolley</label>
+    <label>functional food trolley</label>
     <description>A four wheeled trolley for empty plates and food trays.</description>
     <graphicData>
       <texPath>Things/Building/KitchenProps/FoodTrolley</texPath>
@@ -1368,7 +1455,6 @@
       <Steel>5</Steel>
     </costList>
     <defaultPlacingRot>North</defaultPlacingRot>
-    <designatorDropdown>KitchenProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -1389,7 +1475,7 @@
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_WineRackDeep</defName>
-    <label>wine rack</label>
+    <label>functional wine rack</label>
     <description>A civilised wine storage rack.</description>
     <graphicData>
       <texPath>Things/Building/KitchenProps/WineRack/WineRack</texPath>
@@ -1410,7 +1496,6 @@
     <costList>
       <WoodLog>15</WoodLog>
     </costList>
-    <designatorDropdown>KitchenProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -1433,7 +1518,7 @@
   <!-- Shelve Props -->
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_SteelCupboardDeep</defName>
-    <label>steel cupboard</label>
+    <label>functional steel cupboard</label>
     <description>An empty large cupboard.</description>
     <graphicData>
       <texPath>Things/Building/FurnitureProps/Cupboard/Cupboard</texPath>
@@ -1460,7 +1545,6 @@
     <costList>
       <Steel>25</Steel>
     </costList>
-    <designatorDropdown>FurnitureProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -1482,7 +1566,7 @@
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_PlasteelCupboardDeep</defName>
-    <label>plasteel cupboard</label>
+    <label>functional plasteel cupboard</label>
     <description>An empty large cupboard.</description>
     <graphicData>
       <texPath>Things/Building/FurnitureProps/Cupboard/Cupboard</texPath>
@@ -1509,7 +1593,6 @@
     <costList>
       <Plasteel>25</Plasteel>
     </costList>
-    <designatorDropdown>FurnitureProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -1531,7 +1614,7 @@
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_SilverCupboardDeep</defName>
-    <label>silver cupboard</label>
+    <label>functional silver cupboard</label>
     <description>An empty large cupboard.</description>
     <graphicData>
       <texPath>Things/Building/FurnitureProps/Cupboard/Cupboard</texPath>
@@ -1558,7 +1641,6 @@
     <costList>
       <Silver>25</Silver>
     </costList>
-    <designatorDropdown>FurnitureProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -1580,7 +1662,7 @@
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_WoodenCupboardDeep</defName>
-    <label>wooden cupboard</label>
+    <label>functional wooden cupboard</label>
     <description>An empty large cupboard.</description>
     <graphicData>
       <texPath>Things/Building/FurnitureProps/Cupboard/Cupboard</texPath>
@@ -1607,7 +1689,6 @@
     <costList>
       <WoodLog>25</WoodLog>
     </costList>
-    <designatorDropdown>FurnitureProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -1629,7 +1710,7 @@
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_SteelCupboardDoubleDeep</defName>
-    <label>steel double cupboard</label>
+    <label>functional steel double cupboard</label>
     <description>An empty large double cupboard.</description>
     <graphicData>
       <texPath>Things/Building/FurnitureProps/CupboardDouble/CupboardDouble</texPath>
@@ -1656,7 +1737,6 @@
     <costList>
       <Steel>35</Steel>
     </costList>
-    <designatorDropdown>FurnitureProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -1678,7 +1758,7 @@
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_PlasteelCupboardDoubleDeep</defName>
-    <label>plasteel double cupboard</label>
+    <label>functional plasteel double cupboard</label>
     <description>An empty large double cupboard.</description>
     <graphicData>
       <texPath>Things/Building/FurnitureProps/CupboardDouble/CupboardDouble</texPath>
@@ -1705,7 +1785,6 @@
     <costList>
       <Plasteel>35</Plasteel>
     </costList>
-    <designatorDropdown>FurnitureProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -1727,7 +1806,7 @@
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_SilverCupboardDoubleDeep</defName>
-    <label>silver double cupboard</label>
+    <label>functional silver double cupboard</label>
     <description>An empty large double cupboard.</description>
     <graphicData>
       <texPath>Things/Building/FurnitureProps/CupboardDouble/CupboardDouble</texPath>
@@ -1754,7 +1833,6 @@
     <costList>
       <Silver>35</Silver>
     </costList>
-    <designatorDropdown>FurnitureProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -1776,7 +1854,7 @@
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_WoodenCupboardDoubleDeep</defName>
-    <label>wooden double cupboard</label>
+    <label>functional wooden double cupboard</label>
     <description>An empty large double cupboard.</description>
     <graphicData>
       <texPath>Things/Building/FurnitureProps/CupboardDouble/CupboardDouble</texPath>
@@ -1803,7 +1881,6 @@
     <costList>
       <WoodLog>35</WoodLog>
     </costList>
-    <designatorDropdown>FurnitureProps</designatorDropdown>
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -1826,12 +1903,12 @@
   <!-- Hot Meals -->
   <ThingDef ParentName="MicrowaveDeep" Abstract="True">
     <defName>VFEPD_MicrowaveHotMeals</defName>
-    <label>Microwave (Powered)</label>
+    <label>functional microwave (powered)</label>
     <description>A tabletop microwave device which can quickly heat up your Meals. (HotMeals Mod)</description>
   </ThingDef>
   <ThingDef ParentName="OvenDeep" Abstract="True">
     <defName>VFEPD_OvenHotMeals</defName>
-    <label>Oven (Powered)</label>
+    <label>functional oven (powered)</label>
     <description>A large oven which can heat up your Meals. (HotMeals Mod)</description>
   </ThingDef>
   <!-- DropDown Designator -->

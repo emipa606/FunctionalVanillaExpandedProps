@@ -3,6 +3,7 @@
   <Operation Class="PatchOperationFindMod">
     <mods>
       <li>[D] Thermodynamics - Hot Meals</li>
+      <li>[D] Thermodynamics - Hot Meals (Continued)</li>
     </mods>
     <match Class="PatchOperationSequence">
       <success>Always</success>

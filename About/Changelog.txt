@@ -1,5 +1,8 @@
 # Changelog for FunctionalVanillaExpandedProps
 
+1.4.5 - Fixed the issues caused by the recent changes in Vanilla Furniture Expanded - Props and Decor
+
+
 1.4.4 - Added research-requirements for the VFE props-research. Seemed silly that tribals could build fake spaceships.
 
 
