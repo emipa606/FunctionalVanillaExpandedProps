@@ -1,5 +1,8 @@
 # Changelog for FunctionalVanillaExpandedProps
 
+1.4.6 - Fixed the missing items in the new menu
+
+
 1.4.5 - Fixed the issues caused by the recent changes in Vanilla Furniture Expanded - Props and Decor
 
 

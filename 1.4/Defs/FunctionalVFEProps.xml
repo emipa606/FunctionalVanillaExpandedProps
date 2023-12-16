@@ -904,6 +904,55 @@
     </researchPrerequisites>
   </ThingDef>
   <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_PalletBarrelRedDeep</defName>
+    <label>functional pallet with red barrels</label>
+    <description>A red metal barrel on a wooden pallet.</description>
+    <graphicData>
+      <texPath>Things/Building/IndustrialProps/PalletBarrels</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(3,3)</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.30, 0.40)</volume>
+      </shadowData>
+      <color>(168,124,120)</color>
+    </graphicData>
+    <fillPercent>0.6</fillPercent>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToBuild>400</WorkToBuild>
+      <Mass>50</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <defaultPlacingRot>North</defaultPlacingRot>
+    <size>(2,2)</size>
+    <costList>
+      <Steel>30</Steel>
+      <WoodLog>20</WoodLog>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>3</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
     <defName>VFEPD_ContainerGreyDeep</defName>
     <label>functional grey cargo container</label>
     <description>A grey metal cargo container. Cannot hold roof.</description>

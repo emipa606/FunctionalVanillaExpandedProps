@@ -33,10 +33,34 @@
     <shortLabel>small box</shortLabel>
   </VFEProps.PropDef>
   <VFEProps.PropDef>
-    <defName>VFE_Prop_Industrial_7_Deep</defName>
+    <defName>VFE_Prop_Industrial_7_DeepGreen</defName>
     <category>VFE_PropCategory_Industrial</category>
     <priority>7</priority>
     <prop>VFEPD_BarrelGreenDeep</prop>
+  </VFEProps.PropDef>
+  <VFEProps.PropDef>
+    <defName>VFE_Prop_Industrial_7_DeepGrey</defName>
+    <category>VFE_PropCategory_Industrial</category>
+    <priority>7</priority>
+    <prop>VFEPD_BarrelGreyDeep</prop>
+  </VFEProps.PropDef>
+  <VFEProps.PropDef>
+    <defName>VFE_Prop_Industrial_7_YellowRed</defName>
+    <category>VFE_PropCategory_Industrial</category>
+    <priority>7</priority>
+    <prop>VFEPD_BarrelYellowDeep</prop>
+  </VFEProps.PropDef>
+  <VFEProps.PropDef>
+    <defName>VFE_Prop_Industrial_7_BlueRed</defName>
+    <category>VFE_PropCategory_Industrial</category>
+    <priority>7</priority>
+    <prop>VFEPD_BarrelBlueDeep</prop>
+  </VFEProps.PropDef>
+  <VFEProps.PropDef>
+    <defName>VFE_Prop_Industrial_7_DeepRed</defName>
+    <category>VFE_PropCategory_Industrial</category>
+    <priority>7</priority>
+    <prop>VFEPD_BarrelRedDeep</prop>
   </VFEProps.PropDef>
   <VFEProps.PropDef>
     <defName>VFE_Prop_Industrial_8_Deep</defName>
@@ -58,16 +82,64 @@
     <prop>VFEPD_PalletDeep</prop>
   </VFEProps.PropDef>
   <VFEProps.PropDef>
-    <defName>VFE_Prop_Industrial_11_Deep</defName>
+    <defName>VFE_Prop_Industrial_11_DeepGreen</defName>
     <category>VFE_PropCategory_Industrial</category>
     <priority>11</priority>
     <prop>VFEPD_PalletBarrelGreenDeep</prop>
   </VFEProps.PropDef>
   <VFEProps.PropDef>
-    <defName>VFE_Prop_Industrial_12_Deep</defName>
+    <defName>VFE_Prop_Industrial_11_DeepGrey</defName>
+    <category>VFE_PropCategory_Industrial</category>
+    <priority>11</priority>
+    <prop>VFEPD_PalletBarrelGreyDeep</prop>
+  </VFEProps.PropDef>
+  <VFEProps.PropDef>
+    <defName>VFE_Prop_Industrial_11_DeepYellow</defName>
+    <category>VFE_PropCategory_Industrial</category>
+    <priority>11</priority>
+    <prop>VFEPD_PalletBarrelYellowDeep</prop>
+  </VFEProps.PropDef>
+  <VFEProps.PropDef>
+    <defName>VFE_Prop_Industrial_11_DeepBlue</defName>
+    <category>VFE_PropCategory_Industrial</category>
+    <priority>11</priority>
+    <prop>VFEPD_PalletBarrelBlueDeep</prop>
+  </VFEProps.PropDef>
+  <VFEProps.PropDef>
+    <defName>VFE_Prop_Industrial_11_DeepRed</defName>
+    <category>VFE_PropCategory_Industrial</category>
+    <priority>11</priority>
+    <prop>VFEPD_PalletBarrelRedDeep</prop>
+  </VFEProps.PropDef>
+  <VFEProps.PropDef>
+    <defName>VFE_Prop_Industrial_12_DeepGrey</defName>
+    <category>VFE_PropCategory_Industrial</category>
+    <priority>12</priority>
+    <prop>VFEPD_ContainerGreyDeep</prop>
+  </VFEProps.PropDef>
+  <VFEProps.PropDef>
+    <defName>VFE_Prop_Industrial_12_DeepGreen</defName>
     <category>VFE_PropCategory_Industrial</category>
     <priority>12</priority>
     <prop>VFEPD_ContainerGreenDeep</prop>
+  </VFEProps.PropDef>
+  <VFEProps.PropDef>
+    <defName>VFE_Prop_Industrial_12_DeepYellow</defName>
+    <category>VFE_PropCategory_Industrial</category>
+    <priority>12</priority>
+    <prop>VFEPD_ContainerYellowDeep</prop>
+  </VFEProps.PropDef>
+  <VFEProps.PropDef>
+    <defName>VFE_Prop_Industrial_12_DeepBlue</defName>
+    <category>VFE_PropCategory_Industrial</category>
+    <priority>12</priority>
+    <prop>VFEPD_ContainerBlueDeep</prop>
+  </VFEProps.PropDef>
+  <VFEProps.PropDef>
+    <defName>VFE_Prop_Industrial_12_DeepRed</defName>
+    <category>VFE_PropCategory_Industrial</category>
+    <priority>12</priority>
+    <prop>VFEPD_ContainerRedDeep</prop>
   </VFEProps.PropDef>
   <VFEProps.PropDef>
     <defName>VFE_Prop_Industrial_17_Deep</defName>

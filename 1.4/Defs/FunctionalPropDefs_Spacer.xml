@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VFEProps.PropDef>
+    <defName>VFE_Prop_Spacer_9_Deep</defName>
+    <category>VFE_PropCategory_Spacer</category>
+    <priority>9</priority>
+    <prop>VFEPD_SpacerContainerDeep</prop>
+  </VFEProps.PropDef>
+  <VFEProps.PropDef>
+    <defName>VFE_Prop_Spacer_10_Deep</defName>
+    <category>VFE_PropCategory_Spacer</category>
+    <priority>10</priority>
+    <shortLabel>spacer cont large</shortLabel>
+    <prop>VFEPD_SpacerContainerLargeDeep</prop>
+  </VFEProps.PropDef>
+  <VFEProps.PropDef>
+    <defName>VFE_Prop_Spacer_11_Deep</defName>
+    <category>VFE_PropCategory_Spacer</category>
+    <priority>11</priority>
+    <shortLabel>spacer cont stack</shortLabel>
+    <prop>VFEPD_SpacerContainerStackDeep</prop>
+  </VFEProps.PropDef>
+  <VFEProps.PropDef>
+    <defName>VFE_Prop_Spacer_12_Deep</defName>
+    <category>VFE_PropCategory_Spacer</category>
+    <priority>12</priority>
+    <shortLabel>storage device</shortLabel>
+    <prop>VFEPD_SpacerStorageDeep</prop>
+  </VFEProps.PropDef>
+</Defs>
