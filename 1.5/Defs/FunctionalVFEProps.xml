@@ -1,7 +1,22 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <DesignatorDropdownGroupDef>
     <defName>FunctionalPropsHotMeals</defName>
+  </DesignatorDropdownGroupDef>
+  <DesignatorDropdownGroupDef>
+    <defName>FunctionalPropsCupboard</defName>
+  </DesignatorDropdownGroupDef>
+  <DesignatorDropdownGroupDef>
+    <defName>FunctionalPropsContainer</defName>
+  </DesignatorDropdownGroupDef>
+  <DesignatorDropdownGroupDef>
+    <defName>FunctionalPropsBarrel</defName>
+  </DesignatorDropdownGroupDef>
+  <DesignatorDropdownGroupDef>
+    <defName>FunctionalPropsPallet</defName>
+  </DesignatorDropdownGroupDef>
+  <DesignatorDropdownGroupDef>
+    <defName>FunctionalPropsBox</defName>
   </DesignatorDropdownGroupDef>
   <!-- ParentName -->
   <ThingDef ParentName="LWM_DeepStorage" Name="VEFunctional" Abstract="True">
@@ -22,6 +37,7 @@
     </graphicData>
     <rotatable>false</rotatable>
     <fillPercent>0.1</fillPercent>
+    <designatorDropdown>FunctionalPropsBox</designatorDropdown>
     <statBases>
       <MaxHitPoints>20</MaxHitPoints>
       <WorkToBuild>50</WorkToBuild>
@@ -71,6 +87,7 @@
     </graphicData>
     <defaultPlacingRot>South</defaultPlacingRot>
     <fillPercent>0.3</fillPercent>
+    <designatorDropdown>FunctionalPropsBox</designatorDropdown>
     <statBases>
       <MaxHitPoints>70</MaxHitPoints>
       <WorkToBuild>100</WorkToBuild>
@@ -118,6 +135,7 @@
     </graphicData>
     <defaultPlacingRot>South</defaultPlacingRot>
     <fillPercent>0.2</fillPercent>
+    <designatorDropdown>FunctionalPropsBox</designatorDropdown>
     <statBases>
       <MaxHitPoints>40</MaxHitPoints>
       <WorkToBuild>100</WorkToBuild>
@@ -162,6 +180,7 @@
     </graphicData>
     <defaultPlacingRot>South</defaultPlacingRot>
     <fillPercent>0.3</fillPercent>
+    <designatorDropdown>FunctionalPropsBox</designatorDropdown>
     <statBases>
       <MaxHitPoints>10</MaxHitPoints>
       <WorkToBuild>50</WorkToBuild>
@@ -208,6 +227,7 @@
     </graphicData>
     <defaultPlacingRot>South</defaultPlacingRot>
     <fillPercent>0.2</fillPercent>
+    <designatorDropdown>FunctionalPropsBox</designatorDropdown>
     <statBases>
       <MaxHitPoints>10</MaxHitPoints>
       <WorkToBuild>50</WorkToBuild>
@@ -297,6 +317,7 @@
         <volume>(0.55, 0.30, 0.40)</volume>
       </shadowData>
     </graphicData>
+    <uiIconScale>0.4</uiIconScale>
     <fillPercent>0.2</fillPercent>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
@@ -345,6 +366,7 @@
       <color>(117,169,119)</color>
     </graphicData>
     <fillPercent>0.2</fillPercent>
+    <designatorDropdown>FunctionalPropsBarrel</designatorDropdown>
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
       <WorkToBuild>70</WorkToBuild>
@@ -392,6 +414,7 @@
       <color>(123,123,123)</color>
     </graphicData>
     <fillPercent>0.2</fillPercent>
+    <designatorDropdown>FunctionalPropsBarrel</designatorDropdown>
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
       <WorkToBuild>70</WorkToBuild>
@@ -439,6 +462,7 @@
       <color>(168,124,120)</color>
     </graphicData>
     <fillPercent>0.2</fillPercent>
+    <designatorDropdown>FunctionalPropsBarrel</designatorDropdown>
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
       <WorkToBuild>70</WorkToBuild>
@@ -486,6 +510,7 @@
       <color>(221,181,124)</color>
     </graphicData>
     <fillPercent>0.2</fillPercent>
+    <designatorDropdown>FunctionalPropsBarrel</designatorDropdown>
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
       <WorkToBuild>70</WorkToBuild>
@@ -533,6 +558,7 @@
       <color>(127,138,167)</color>
     </graphicData>
     <fillPercent>0.2</fillPercent>
+    <designatorDropdown>FunctionalPropsBarrel</designatorDropdown>
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
       <WorkToBuild>70</WorkToBuild>
@@ -579,6 +605,7 @@
     </graphicData>
     <rotatable>False</rotatable>
     <fillPercent>0.3</fillPercent>
+    <designatorDropdown>FunctionalPropsPallet</designatorDropdown>
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
       <WorkToBuild>300</WorkToBuild>
@@ -628,6 +655,7 @@
     </graphicData>
     <rotatable>False</rotatable>
     <fillPercent>0.3</fillPercent>
+    <designatorDropdown>FunctionalPropsPallet</designatorDropdown>
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
       <WorkToBuild>400</WorkToBuild>
@@ -675,6 +703,7 @@
     </graphicData>
     <rotatable>False</rotatable>
     <fillPercent>0.1</fillPercent>
+    <designatorDropdown>FunctionalPropsPallet</designatorDropdown>
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
       <WorkToBuild>100</WorkToBuild>
@@ -722,6 +751,7 @@
       <color>(123,123,123)</color>
     </graphicData>
     <fillPercent>0.6</fillPercent>
+    <designatorDropdown>FunctionalPropsPallet</designatorDropdown>
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
       <WorkToBuild>400</WorkToBuild>
@@ -771,6 +801,7 @@
       <color>(221,181,124)</color>
     </graphicData>
     <fillPercent>0.6</fillPercent>
+    <designatorDropdown>FunctionalPropsPallet</designatorDropdown>
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
       <WorkToBuild>400</WorkToBuild>
@@ -820,6 +851,7 @@
       <color>(127,138,167)</color>
     </graphicData>
     <fillPercent>0.6</fillPercent>
+    <designatorDropdown>FunctionalPropsPallet</designatorDropdown>
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
       <WorkToBuild>400</WorkToBuild>
@@ -869,6 +901,7 @@
       <color>(117,169,119)</color>
     </graphicData>
     <fillPercent>0.6</fillPercent>
+    <designatorDropdown>FunctionalPropsPallet</designatorDropdown>
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
       <WorkToBuild>400</WorkToBuild>
@@ -918,6 +951,7 @@
       <color>(168,124,120)</color>
     </graphicData>
     <fillPercent>0.6</fillPercent>
+    <designatorDropdown>FunctionalPropsPallet</designatorDropdown>
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
       <WorkToBuild>400</WorkToBuild>
@@ -967,6 +1001,7 @@
     </graphicData>
     <defaultPlacingRot>South</defaultPlacingRot>
     <castEdgeShadows>True</castEdgeShadows>
+    <designatorDropdown>FunctionalPropsContainer</designatorDropdown>
     <blockWind>true</blockWind>
     <fillPercent>1</fillPercent>
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -1019,6 +1054,7 @@
     </graphicData>
     <defaultPlacingRot>South</defaultPlacingRot>
     <castEdgeShadows>True</castEdgeShadows>
+    <designatorDropdown>FunctionalPropsContainer</designatorDropdown>
     <blockWind>true</blockWind>
     <fillPercent>1</fillPercent>
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -1071,6 +1107,7 @@
     </graphicData>
     <defaultPlacingRot>South</defaultPlacingRot>
     <castEdgeShadows>True</castEdgeShadows>
+    <designatorDropdown>FunctionalPropsContainer</designatorDropdown>
     <blockWind>true</blockWind>
     <fillPercent>1</fillPercent>
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -1123,6 +1160,7 @@
     </graphicData>
     <defaultPlacingRot>South</defaultPlacingRot>
     <castEdgeShadows>True</castEdgeShadows>
+    <designatorDropdown>FunctionalPropsContainer</designatorDropdown>
     <blockWind>true</blockWind>
     <fillPercent>1</fillPercent>
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -1175,6 +1213,7 @@
     </graphicData>
     <defaultPlacingRot>South</defaultPlacingRot>
     <castEdgeShadows>True</castEdgeShadows>
+    <designatorDropdown>FunctionalPropsContainer</designatorDropdown>
     <blockWind>true</blockWind>
     <fillPercent>0.5</fillPercent>
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -1222,6 +1261,7 @@
       <drawSize>(1,1)</drawSize>
     </graphicData>
     <defaultPlacingRot>South</defaultPlacingRot>
+    <designatorDropdown>FunctionalPropsContainer</designatorDropdown>
     <fillPercent>0.2</fillPercent>
     <statBases>
       <MaxHitPoints>70</MaxHitPoints>
@@ -1266,6 +1306,7 @@
       <drawSize>(2,2)</drawSize>
     </graphicData>
     <defaultPlacingRot>South</defaultPlacingRot>
+    <designatorDropdown>FunctionalPropsContainer</designatorDropdown>
     <fillPercent>0.2</fillPercent>
     <statBases>
       <MaxHitPoints>70</MaxHitPoints>
@@ -1319,6 +1360,7 @@
     </statBases>
     <size>(2,2)</size>
     <defaultPlacingRot>North</defaultPlacingRot>
+    <designatorDropdown>FunctionalPropsContainer</designatorDropdown>
     <costList>
       <Steel>40</Steel>
       <Plasteel>25</Plasteel>
@@ -1401,6 +1443,7 @@
       <drawSize>(1.5,1.5)</drawSize>
     </graphicData>
     <fillPercent>0.3</fillPercent>
+    <uiIconScale>0.75</uiIconScale>
     <rotatable>true</rotatable>
     <defaultPlacingRot>South</defaultPlacingRot>
     <statBases>
@@ -1448,6 +1491,7 @@
     <rotatable>true</rotatable>
     <defaultPlacingRot>South</defaultPlacingRot>
     <fillPercent>0.5</fillPercent>
+    <uiIconScale>0.75</uiIconScale>
     <statBases>
       <MaxHitPoints>60</MaxHitPoints>
       <WorkToBuild>50</WorkToBuild>
@@ -1492,6 +1536,7 @@
     </graphicData>
     <rotatable>false</rotatable>
     <fillPercent>0.1</fillPercent>
+    <uiIconScale>0.75</uiIconScale>
     <statBases>
       <MaxHitPoints>20</MaxHitPoints>
       <WorkToBuild>50</WorkToBuild>
@@ -1534,6 +1579,7 @@
     <rotatable>true</rotatable>
     <defaultPlacingRot>South</defaultPlacingRot>
     <fillPercent>0.3</fillPercent>
+    <uiIconScale>0.75</uiIconScale>
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
       <WorkToBuild>50</WorkToBuild>
@@ -1580,8 +1626,10 @@
     </graphicData>
     <defaultPlacingRot>South</defaultPlacingRot>
     <castEdgeShadows>False</castEdgeShadows>
+    <designatorDropdown>FunctionalPropsCupboard</designatorDropdown>
     <blockWind>true</blockWind>
     <fillPercent>0.5</fillPercent>
+    <uiIconScale>0.75</uiIconScale>
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <repairEffect>ConstructMetal</repairEffect>
     <statBases>
@@ -1628,8 +1676,10 @@
     </graphicData>
     <defaultPlacingRot>South</defaultPlacingRot>
     <castEdgeShadows>False</castEdgeShadows>
+    <designatorDropdown>FunctionalPropsCupboard</designatorDropdown>
     <blockWind>true</blockWind>
     <fillPercent>0.5</fillPercent>
+    <uiIconScale>0.75</uiIconScale>
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <repairEffect>ConstructMetal</repairEffect>
     <statBases>
@@ -1676,8 +1726,10 @@
     </graphicData>
     <defaultPlacingRot>South</defaultPlacingRot>
     <castEdgeShadows>False</castEdgeShadows>
+    <designatorDropdown>FunctionalPropsCupboard</designatorDropdown>
     <blockWind>true</blockWind>
     <fillPercent>0.5</fillPercent>
+    <uiIconScale>0.75</uiIconScale>
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <repairEffect>ConstructMetal</repairEffect>
     <statBases>
@@ -1724,8 +1776,10 @@
     </graphicData>
     <defaultPlacingRot>South</defaultPlacingRot>
     <castEdgeShadows>False</castEdgeShadows>
+    <designatorDropdown>FunctionalPropsCupboard</designatorDropdown>
     <blockWind>true</blockWind>
     <fillPercent>0.5</fillPercent>
+    <uiIconScale>0.75</uiIconScale>
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <repairEffect>ConstructMetal</repairEffect>
     <statBases>
@@ -1772,8 +1826,10 @@
     </graphicData>
     <defaultPlacingRot>South</defaultPlacingRot>
     <castEdgeShadows>False</castEdgeShadows>
+    <designatorDropdown>FunctionalPropsCupboard</designatorDropdown>
     <blockWind>true</blockWind>
     <fillPercent>0.5</fillPercent>
+    <uiIconScale>0.75</uiIconScale>
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <repairEffect>ConstructMetal</repairEffect>
     <statBases>
@@ -1820,8 +1876,10 @@
     </graphicData>
     <defaultPlacingRot>South</defaultPlacingRot>
     <castEdgeShadows>False</castEdgeShadows>
+    <designatorDropdown>FunctionalPropsCupboard</designatorDropdown>
     <blockWind>true</blockWind>
     <fillPercent>0.5</fillPercent>
+    <uiIconScale>0.75</uiIconScale>
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <repairEffect>ConstructMetal</repairEffect>
     <statBases>
@@ -1868,8 +1926,10 @@
     </graphicData>
     <defaultPlacingRot>South</defaultPlacingRot>
     <castEdgeShadows>False</castEdgeShadows>
+    <designatorDropdown>FunctionalPropsCupboard</designatorDropdown>
     <blockWind>true</blockWind>
     <fillPercent>0.5</fillPercent>
+    <uiIconScale>0.75</uiIconScale>
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <repairEffect>ConstructMetal</repairEffect>
     <statBases>
@@ -1916,8 +1976,10 @@
     </graphicData>
     <defaultPlacingRot>South</defaultPlacingRot>
     <castEdgeShadows>False</castEdgeShadows>
+    <designatorDropdown>FunctionalPropsCupboard</designatorDropdown>
     <blockWind>true</blockWind>
     <fillPercent>0.5</fillPercent>
+    <uiIconScale>0.75</uiIconScale>
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <repairEffect>ConstructMetal</repairEffect>
     <statBases>
