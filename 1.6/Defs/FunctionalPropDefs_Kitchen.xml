@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VFEProps.PropDef>
+    <defName>VFE_Prop_Kitchen_4_Deep</defName>
+    <category>VFE_PropCategory_Kitchen</category>
+    <priority>4</priority>
+    <prop>VFEPD_MicrowaveDeep</prop>
+  </VFEProps.PropDef>
+  <VFEProps.PropDef>
+    <defName>VFE_Prop_Kitchen_5_Deep</defName>
+    <category>VFE_PropCategory_Kitchen</category>
+    <priority>5</priority>
+    <prop>VFEPD_OvenDeep</prop>
+  </VFEProps.PropDef>
+  <VFEProps.PropDef>
+    <defName>VFE_Prop_Kitchen_8_Deep</defName>
+    <category>VFE_PropCategory_Kitchen</category>
+    <priority>8</priority>
+    <prop>VFEPD_FoodTrolleyDeep</prop>
+  </VFEProps.PropDef>
+  <VFEProps.PropDef>
+    <defName>VFE_Prop_Kitchen_12_Deep</defName>
+    <category>VFE_PropCategory_Kitchen</category>
+    <priority>12</priority>
+    <prop>VFEPD_WineRackDeep</prop>
+  </VFEProps.PropDef>
+</Defs>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: functional blue barrel -->
+  <VFEPD_BarrelBlueDeep.label>functional blue barrel</VFEPD_BarrelBlueDeep.label>
+  <!-- EN: A blue metal barrel. -->
+  <VFEPD_BarrelBlueDeep.description>A blue metal barrel.</VFEPD_BarrelBlueDeep.description>
+  <!-- EN: functional green barrel -->
+  <VFEPD_BarrelGreenDeep.label>functional green barrel</VFEPD_BarrelGreenDeep.label>
+  <!-- EN: A green metal barrel. -->
+  <VFEPD_BarrelGreenDeep.description>A green metal barrel.</VFEPD_BarrelGreenDeep.description>
+  <!-- EN: functional grey barrel -->
+  <VFEPD_BarrelGreyDeep.label>functional grey barrel</VFEPD_BarrelGreyDeep.label>
+  <!-- EN: A grey metal barrel. -->
+  <VFEPD_BarrelGreyDeep.description>A grey metal barrel.</VFEPD_BarrelGreyDeep.description>
+  <!-- EN: functional red barrel -->
+  <VFEPD_BarrelRedDeep.label>functional red barrel</VFEPD_BarrelRedDeep.label>
+  <!-- EN: A red metal barrel. -->
+  <VFEPD_BarrelRedDeep.description>A red metal barrel.</VFEPD_BarrelRedDeep.description>
+  <!-- EN: functional yellow barrel -->
+  <VFEPD_BarrelYellowDeep.label>functional yellow barrel</VFEPD_BarrelYellowDeep.label>
+  <!-- EN: A yellow metal barrel. -->
+  <VFEPD_BarrelYellowDeep.description>A yellow metal barrel.</VFEPD_BarrelYellowDeep.description>
+  <!-- EN: functional bin bag -->
+  <VFEPD_BinBagDeep.label>functional bin bag</VFEPD_BinBagDeep.label>
+  <!-- EN: A black bag containing various sort of rubbish. -->
+  <VFEPD_BinBagDeep.description>A black bag containing various sort of rubbish.</VFEPD_BinBagDeep.description>
+  <!-- EN: functional large wooden box -->
+  <VFEPD_BoxLargeDeep.label>functional large wooden box</VFEPD_BoxLargeDeep.label>
+  <!-- EN: A large wooden box with various content. -->
+  <VFEPD_BoxLargeDeep.description>A large wooden box with various content.</VFEPD_BoxLargeDeep.description>
+  <!-- EN: functional small wooden box -->
+  <VFEPD_BoxSmallDeep.label>functional small wooden box</VFEPD_BoxSmallDeep.label>
+  <!-- EN: A small wooden box with various content. -->
+  <VFEPD_BoxSmallDeep.description>A small wooden box with various content.</VFEPD_BoxSmallDeep.description>
+  <!-- EN: functional large cardboard box -->
+  <VFEPD_CardboardBoxLargeDeep.label>functional large cardboard box</VFEPD_CardboardBoxLargeDeep.label>
+  <!-- EN: A large cardboard box with various content. -->
+  <VFEPD_CardboardBoxLargeDeep.description>A large cardboard box with various content.</VFEPD_CardboardBoxLargeDeep.description>
+  <!-- EN: functional small cardboard box -->
+  <VFEPD_CardboardBoxSmallDeep.label>functional small cardboard box</VFEPD_CardboardBoxSmallDeep.label>
+  <!-- EN: A small cardboard box with various content. -->
+  <VFEPD_CardboardBoxSmallDeep.description>A small cardboard box with various content.</VFEPD_CardboardBoxSmallDeep.description>
+  <!-- EN: functional blue cargo container -->
+  <VFEPD_ContainerBlueDeep.label>functional blue cargo container</VFEPD_ContainerBlueDeep.label>
+  <!-- EN: A blue metal cargo container. Cannot hold roof. -->
+  <VFEPD_ContainerBlueDeep.description>A blue metal cargo container. Cannot hold roof.</VFEPD_ContainerBlueDeep.description>
+  <!-- EN: functional cargo container -->
+  <VFEPD_ContainerGreenDeep.label>functional cargo container</VFEPD_ContainerGreenDeep.label>
+  <!-- EN: A metal cargo container. Impassable. Cannot hold roof. -->
+  <VFEPD_ContainerGreenDeep.description>A metal cargo container. Impassable. Cannot hold roof.</VFEPD_ContainerGreenDeep.description>
+  <!-- EN: functional grey cargo container -->
+  <VFEPD_ContainerGreyDeep.label>functional grey cargo container</VFEPD_ContainerGreyDeep.label>
+  <!-- EN: A grey metal cargo container. Cannot hold roof. -->
+  <VFEPD_ContainerGreyDeep.description>A grey metal cargo container. Cannot hold roof.</VFEPD_ContainerGreyDeep.description>
+  <!-- EN: functional red cargo container -->
+  <VFEPD_ContainerRedDeep.label>functional red cargo container</VFEPD_ContainerRedDeep.label>
+  <!-- EN: A red metal cargo container. Cannot hold roof. -->
+  <VFEPD_ContainerRedDeep.description>A red metal cargo container. Cannot hold roof.</VFEPD_ContainerRedDeep.description>
+  <!-- EN: functional yellow cargo container -->
+  <VFEPD_ContainerYellowDeep.label>functional yellow cargo container</VFEPD_ContainerYellowDeep.label>
+  <!-- EN: A yellow metal cargo container. Cannot hold roof. -->
+  <VFEPD_ContainerYellowDeep.description>A yellow metal cargo container. Cannot hold roof.</VFEPD_ContainerYellowDeep.description>
+  <!-- EN: functional food trolley -->
+  <VFEPD_FoodTrolleyDeep.label>functional food trolley</VFEPD_FoodTrolleyDeep.label>
+  <!-- EN: A four wheeled trolley for empty plates and food trays. -->
+  <VFEPD_FoodTrolleyDeep.description>A four wheeled trolley for empty plates and food trays.</VFEPD_FoodTrolleyDeep.description>
+  <!-- EN: functional gas tank -->
+  <VFEPD_GasTankDeep.label>functional gas tank</VFEPD_GasTankDeep.label>
+  <!-- EN: A large metal gas tank. -->
+  <VFEPD_GasTankDeep.description>A large metal gas tank.</VFEPD_GasTankDeep.description>
+  <!-- EN: functional microwave -->
+  <VFEPD_MicrowaveDeep.label>functional microwave</VFEPD_MicrowaveDeep.label>
+  <!-- EN: A tabletop microwave device. -->
+  <VFEPD_MicrowaveDeep.description>A tabletop microwave device.</VFEPD_MicrowaveDeep.description>
+  <!-- EN: functional oven -->
+  <VFEPD_OvenDeep.label>functional oven</VFEPD_OvenDeep.label>
+  <!-- EN: A large oven. -->
+  <VFEPD_OvenDeep.description>A large oven.</VFEPD_OvenDeep.description>
+  <!-- EN: functional pallet with blue barrels -->
+  <VFEPD_PalletBarrelBlueDeep.label>functional pallet with blue barrels</VFEPD_PalletBarrelBlueDeep.label>
+  <!-- EN: A blue metal barrel on a wooden pallet. -->
+  <VFEPD_PalletBarrelBlueDeep.description>A blue metal barrel on a wooden pallet.</VFEPD_PalletBarrelBlueDeep.description>
+  <!-- EN: functional pallet with green barrels -->
+  <VFEPD_PalletBarrelGreenDeep.label>functional pallet with green barrels</VFEPD_PalletBarrelGreenDeep.label>
+  <!-- EN: A green metal barrel on a wooden pallet. -->
+  <VFEPD_PalletBarrelGreenDeep.description>A green metal barrel on a wooden pallet.</VFEPD_PalletBarrelGreenDeep.description>
+  <!-- EN: functional pallet with grey barrels -->
+  <VFEPD_PalletBarrelGreyDeep.label>functional pallet with grey barrels</VFEPD_PalletBarrelGreyDeep.label>
+  <!-- EN: A grey metal barrel on a wooden pallet. -->
+  <VFEPD_PalletBarrelGreyDeep.description>A grey metal barrel on a wooden pallet.</VFEPD_PalletBarrelGreyDeep.description>
+  <!-- EN: functional pallet with red barrels -->
+  <VFEPD_PalletBarrelRedDeep.label>functional pallet with red barrels</VFEPD_PalletBarrelRedDeep.label>
+  <!-- EN: A red metal barrel on a wooden pallet. -->
+  <VFEPD_PalletBarrelRedDeep.description>A red metal barrel on a wooden pallet.</VFEPD_PalletBarrelRedDeep.description>
+  <!-- EN: functional pallet with yellow barrels -->
+  <VFEPD_PalletBarrelYellowDeep.label>functional pallet with yellow barrels</VFEPD_PalletBarrelYellowDeep.label>
+  <!-- EN: A yellow metal barrel on a wooden pallet. -->
+  <VFEPD_PalletBarrelYellowDeep.description>A yellow metal barrel on a wooden pallet.</VFEPD_PalletBarrelYellowDeep.description>
+  <!-- EN: functional pallet with wooden boxes -->
+  <VFEPD_PalletBoxesDeep.label>functional pallet with wooden boxes</VFEPD_PalletBoxesDeep.label>
+  <!-- EN: A large pallet with several wooden boxes. -->
+  <VFEPD_PalletBoxesDeep.description>A large pallet with several wooden boxes.</VFEPD_PalletBoxesDeep.description>
+  <!-- EN: functional pallet with cardboard boxes -->
+  <VFEPD_PalletCardboardDeep.label>functional pallet with cardboard boxes</VFEPD_PalletCardboardDeep.label>
+  <!-- EN: A large pallet with several cardboard boxes. -->
+  <VFEPD_PalletCardboardDeep.description>A large pallet with several cardboard boxes.</VFEPD_PalletCardboardDeep.description>
+  <!-- EN: functional pallet -->
+  <VFEPD_PalletDeep.label>functional pallet</VFEPD_PalletDeep.label>
+  <!-- EN: A large pallet. -->
+  <VFEPD_PalletDeep.description>A large pallet.</VFEPD_PalletDeep.description>
+  <!-- EN: functional plasteel cupboard -->
+  <VFEPD_PlasteelCupboardDeep.label>functional plasteel cupboard</VFEPD_PlasteelCupboardDeep.label>
+  <!-- EN: An empty large cupboard. -->
+  <VFEPD_PlasteelCupboardDeep.description>An empty large cupboard.</VFEPD_PlasteelCupboardDeep.description>
+  <!-- EN: functional plasteel double cupboard -->
+  <VFEPD_PlasteelCupboardDoubleDeep.label>functional plasteel double cupboard</VFEPD_PlasteelCupboardDoubleDeep.label>
+  <!-- EN: An empty large double cupboard. -->
+  <VFEPD_PlasteelCupboardDoubleDeep.description>An empty large double cupboard.</VFEPD_PlasteelCupboardDoubleDeep.description>
+  <!-- EN: functional silver cupboard -->
+  <VFEPD_SilverCupboardDeep.label>functional silver cupboard</VFEPD_SilverCupboardDeep.label>
+  <!-- EN: An empty large cupboard. -->
+  <VFEPD_SilverCupboardDeep.description>An empty large cupboard.</VFEPD_SilverCupboardDeep.description>
+  <!-- EN: functional silver double cupboard -->
+  <VFEPD_SilverCupboardDoubleDeep.label>functional silver double cupboard</VFEPD_SilverCupboardDoubleDeep.label>
+  <!-- EN: An empty large double cupboard. -->
+  <VFEPD_SilverCupboardDoubleDeep.description>An empty large double cupboard.</VFEPD_SilverCupboardDoubleDeep.description>
+  <!-- EN: functional spacer container -->
+  <VFEPD_SpacerContainerDeep.label>functional spacer container</VFEPD_SpacerContainerDeep.label>
+  <!-- EN: A medium sized, triple sealed, password protected box. -->
+  <VFEPD_SpacerContainerDeep.description>A medium sized, triple sealed, password protected box.</VFEPD_SpacerContainerDeep.description>
+  <!-- EN: functional spacer container large -->
+  <VFEPD_SpacerContainerLargeDeep.label>functional spacer container large</VFEPD_SpacerContainerLargeDeep.label>
+  <!-- EN: A large sized, triple sealed, password protected box. -->
+  <VFEPD_SpacerContainerLargeDeep.description>A large sized, triple sealed, password protected box.</VFEPD_SpacerContainerLargeDeep.description>
+  <!-- EN: functional spacer container stack -->
+  <VFEPD_SpacerContainerStackDeep.label>functional spacer container stack</VFEPD_SpacerContainerStackDeep.label>
+  <!-- EN: A large stack of different sized, triple sealed, password protected boxes. -->
+  <VFEPD_SpacerContainerStackDeep.description>A large stack of different sized, triple sealed, password protected boxes.</VFEPD_SpacerContainerStackDeep.description>
+  <!-- EN: functional advanced storage device -->
+  <VFEPD_SpacerStorageDeep.label>functional advanced storage device</VFEPD_SpacerStorageDeep.label>
+  <!-- EN: A large, multi-chamber advanced storage device. -->
+  <VFEPD_SpacerStorageDeep.description>A large, multi-chamber advanced storage device.</VFEPD_SpacerStorageDeep.description>
+  <!-- EN: functional steel cupboard -->
+  <VFEPD_SteelCupboardDeep.label>functional steel cupboard</VFEPD_SteelCupboardDeep.label>
+  <!-- EN: An empty large cupboard. -->
+  <VFEPD_SteelCupboardDeep.description>An empty large cupboard.</VFEPD_SteelCupboardDeep.description>
+  <!-- EN: functional steel double cupboard -->
+  <VFEPD_SteelCupboardDoubleDeep.label>functional steel double cupboard</VFEPD_SteelCupboardDoubleDeep.label>
+  <!-- EN: An empty large double cupboard. -->
+  <VFEPD_SteelCupboardDoubleDeep.description>An empty large double cupboard.</VFEPD_SteelCupboardDoubleDeep.description>
+  <!-- EN: functional water tank -->
+  <VFEPD_WaterTankDeep.label>functional water tank</VFEPD_WaterTankDeep.label>
+  <!-- EN: An industrial water tank. -->
+  <VFEPD_WaterTankDeep.description>An industrial water tank.</VFEPD_WaterTankDeep.description>
+  <!-- EN: functional wine rack -->
+  <VFEPD_WineRackDeep.label>functional wine rack</VFEPD_WineRackDeep.label>
+  <!-- EN: A civilised wine storage rack. -->
+  <VFEPD_WineRackDeep.description>A civilised wine storage rack.</VFEPD_WineRackDeep.description>
+  <!-- EN: functional wooden cupboard -->
+  <VFEPD_WoodenCupboardDeep.label>functional wooden cupboard</VFEPD_WoodenCupboardDeep.label>
+  <!-- EN: An empty large cupboard. -->
+  <VFEPD_WoodenCupboardDeep.description>An empty large cupboard.</VFEPD_WoodenCupboardDeep.description>
+  <!-- EN: functional wooden double cupboard -->
+  <VFEPD_WoodenCupboardDoubleDeep.label>functional wooden double cupboard</VFEPD_WoodenCupboardDoubleDeep.label>
+  <!-- EN: An empty large double cupboard. -->
+  <VFEPD_WoodenCupboardDoubleDeep.description>An empty large double cupboard.</VFEPD_WoodenCupboardDoubleDeep.description>
+</LanguageData>

@@ -1,0 +1,2030 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <DesignatorDropdownGroupDef>
+    <defName>FunctionalPropsHotMeals</defName>
+  </DesignatorDropdownGroupDef>
+  <DesignatorDropdownGroupDef>
+    <defName>FunctionalPropsCupboard</defName>
+  </DesignatorDropdownGroupDef>
+  <DesignatorDropdownGroupDef>
+    <defName>FunctionalPropsContainer</defName>
+  </DesignatorDropdownGroupDef>
+  <DesignatorDropdownGroupDef>
+    <defName>FunctionalPropsBarrel</defName>
+  </DesignatorDropdownGroupDef>
+  <DesignatorDropdownGroupDef>
+    <defName>FunctionalPropsPallet</defName>
+  </DesignatorDropdownGroupDef>
+  <DesignatorDropdownGroupDef>
+    <defName>FunctionalPropsBox</defName>
+  </DesignatorDropdownGroupDef>
+  <!-- ParentName -->
+  <ThingDef ParentName="LWM_DeepStorage" Name="VEFunctional" Abstract="True">
+    <uiIconScale>1</uiIconScale>
+    <costStuffCount Inherit="False" />
+  </ThingDef>
+  <!-- Industrial Props -->
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_BinBagDeep</defName>
+    <label>functional bin bag</label>
+    <description>A black bag containing various sort of rubbish.</description>
+    <graphicData>
+      <texPath>Things/Building/IndustrialProps/BinBag</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.30, 0.40)</volume>
+      </shadowData>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <fillPercent>0.1</fillPercent>
+    <designatorDropdown>FunctionalPropsBox</designatorDropdown>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>50</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <defaultPlacingRot>North</defaultPlacingRot>
+    <filthLeaving>Filth_Trash</filthLeaving>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>10</Steel>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>1</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_BoxLargeDeep</defName>
+    <label>functional large wooden box</label>
+    <description>A large wooden box with various content.</description>
+    <graphicData>
+      <texPath>Things/Building/IndustrialProps/BoxLarge/BoxLarge</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <color>(255,207,174)</color>
+      <shadowData>
+        <volume>(0.55, 0.30, 0.40)</volume>
+      </shadowData>
+    </graphicData>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <fillPercent>0.3</fillPercent>
+    <designatorDropdown>FunctionalPropsBox</designatorDropdown>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>15</Mass>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <WoodLog>25</WoodLog>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>3</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_BoxSmallDeep</defName>
+    <label>functional small wooden box</label>
+    <description>A small wooden box with various content.</description>
+    <graphicData>
+      <texPath>Things/Building/IndustrialProps/BoxSmall/BoxSmall</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <color>(255,207,174)</color>
+      <drawSize>(1,1)</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.30, 0.40)</volume>
+      </shadowData>
+    </graphicData>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <fillPercent>0.2</fillPercent>
+    <designatorDropdown>FunctionalPropsBox</designatorDropdown>
+    <statBases>
+      <MaxHitPoints>40</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>8</Mass>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <WoodLog>15</WoodLog>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>2</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_CardboardBoxLargeDeep</defName>
+    <label>functional large cardboard box</label>
+    <description>A large cardboard box with various content.</description>
+    <graphicData>
+      <texPath>Things/Building/IndustrialProps/CardboardLarge/CardboardLarge</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.30, 0.40)</volume>
+      </shadowData>
+    </graphicData>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <fillPercent>0.3</fillPercent>
+    <designatorDropdown>FunctionalPropsBox</designatorDropdown>
+    <statBases>
+      <MaxHitPoints>10</MaxHitPoints>
+      <WorkToBuild>50</WorkToBuild>
+      <Mass>1</Mass>
+      <Flammability>1</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <WoodLog>15</WoodLog>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>2</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_CardboardBoxSmallDeep</defName>
+    <label>functional small cardboard box</label>
+    <description>A small cardboard box with various content.</description>
+    <graphicData>
+      <texPath>Things/Building/IndustrialProps/CardboardSmall/CardboardSmall</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.30, 0.40)</volume>
+      </shadowData>
+    </graphicData>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <fillPercent>0.2</fillPercent>
+    <designatorDropdown>FunctionalPropsBox</designatorDropdown>
+    <statBases>
+      <MaxHitPoints>10</MaxHitPoints>
+      <WorkToBuild>50</WorkToBuild>
+      <Mass>1</Mass>
+      <Flammability>1</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <WoodLog>10</WoodLog>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>1</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_WaterTankDeep</defName>
+    <label>functional water tank</label>
+    <description>An industrial water tank.</description>
+    <graphicData>
+      <texPath>Things/Building/IndustrialProps/WaterTank/WaterTank</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.30, 0.40)</volume>
+      </shadowData>
+    </graphicData>
+    <fillPercent>0.5</fillPercent>
+    <statBases>
+      <MaxHitPoints>10</MaxHitPoints>
+      <WorkToBuild>50</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>0.1</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>5</Steel>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>2</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_GasTankDeep</defName>
+    <label>functional gas tank</label>
+    <description>A large metal gas tank.</description>
+    <graphicData>
+      <texPath>Things/Building/IndustrialProps/GasTank</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <drawSize>(6,6)</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.30, 0.40)</volume>
+      </shadowData>
+    </graphicData>
+    <uiIconScale>0.4</uiIconScale>
+    <fillPercent>0.2</fillPercent>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>200</WorkToBuild>
+      <Mass>30</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(2,2)</size>
+    <costList>
+      <Steel>30</Steel>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>8</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_BarrelGreenDeep</defName>
+    <label>functional green barrel</label>
+    <description>A green metal barrel.</description>
+    <graphicData>
+      <texPath>Things/Building/IndustrialProps/Barrel/Barrel</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1,1)</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.30, 0.40)</volume>
+      </shadowData>
+      <color>(117,169,119)</color>
+    </graphicData>
+    <fillPercent>0.2</fillPercent>
+    <designatorDropdown>FunctionalPropsBarrel</designatorDropdown>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>70</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>15</Steel>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>2</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_BarrelGreyDeep</defName>
+    <label>functional grey barrel</label>
+    <description>A grey metal barrel.</description>
+    <graphicData>
+      <texPath>Things/Building/IndustrialProps/Barrel/Barrel</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1,1)</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.30, 0.40)</volume>
+      </shadowData>
+      <color>(123,123,123)</color>
+    </graphicData>
+    <fillPercent>0.2</fillPercent>
+    <designatorDropdown>FunctionalPropsBarrel</designatorDropdown>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>70</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>15</Steel>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>2</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_BarrelRedDeep</defName>
+    <label>functional red barrel</label>
+    <description>A red metal barrel.</description>
+    <graphicData>
+      <texPath>Things/Building/IndustrialProps/Barrel/Barrel</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1,1)</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.30, 0.40)</volume>
+      </shadowData>
+      <color>(168,124,120)</color>
+    </graphicData>
+    <fillPercent>0.2</fillPercent>
+    <designatorDropdown>FunctionalPropsBarrel</designatorDropdown>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>70</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>15</Steel>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>2</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_BarrelYellowDeep</defName>
+    <label>functional yellow barrel</label>
+    <description>A yellow metal barrel.</description>
+    <graphicData>
+      <texPath>Things/Building/IndustrialProps/Barrel/Barrel</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1,1)</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.30, 0.40)</volume>
+      </shadowData>
+      <color>(221,181,124)</color>
+    </graphicData>
+    <fillPercent>0.2</fillPercent>
+    <designatorDropdown>FunctionalPropsBarrel</designatorDropdown>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>70</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>15</Steel>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>2</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_BarrelBlueDeep</defName>
+    <label>functional blue barrel</label>
+    <description>A blue metal barrel.</description>
+    <graphicData>
+      <texPath>Things/Building/IndustrialProps/Barrel/Barrel</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1,1)</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.30, 0.40)</volume>
+      </shadowData>
+      <color>(127,138,167)</color>
+    </graphicData>
+    <fillPercent>0.2</fillPercent>
+    <designatorDropdown>FunctionalPropsBarrel</designatorDropdown>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>70</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>15</Steel>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>2</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_PalletCardboardDeep</defName>
+    <label>functional pallet with cardboard boxes</label>
+    <description>A large pallet with several cardboard boxes.</description>
+    <graphicData>
+      <texPath>Things/Building/IndustrialProps/PalletCardboard</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <drawSize>(3,3)</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.30, 0.40)</volume>
+      </shadowData>
+    </graphicData>
+    <rotatable>False</rotatable>
+    <fillPercent>0.3</fillPercent>
+    <designatorDropdown>FunctionalPropsPallet</designatorDropdown>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToBuild>300</WorkToBuild>
+      <Mass>20</Mass>
+      <Flammability>1</Flammability>
+    </statBases>
+    <defaultPlacingRot>North</defaultPlacingRot>
+    <size>(2,2)</size>
+    <costList>
+      <WoodLog>50</WoodLog>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>2</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_PalletBoxesDeep</defName>
+    <label>functional pallet with wooden boxes</label>
+    <description>A large pallet with several wooden boxes.</description>
+    <graphicData>
+      <texPath>Things/Building/IndustrialProps/PalletBoxes</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <drawSize>(3,3)</drawSize>
+      <color>(255,207,174)</color>
+      <shaderType>CutoutComplex</shaderType>
+      <shadowData>
+        <volume>(0.55, 0.30, 0.40)</volume>
+      </shadowData>
+    </graphicData>
+    <rotatable>False</rotatable>
+    <fillPercent>0.3</fillPercent>
+    <designatorDropdown>FunctionalPropsPallet</designatorDropdown>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToBuild>400</WorkToBuild>
+      <Mass>50</Mass>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <defaultPlacingRot>North</defaultPlacingRot>
+    <size>(2,2)</size>
+    <costList>
+      <WoodLog>65</WoodLog>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>3</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_PalletDeep</defName>
+    <label>functional pallet</label>
+    <description>A large pallet.</description>
+    <graphicData>
+      <texPath>Things/Building/IndustrialProps/Pallet/Pallet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.30, 0.40)</volume>
+      </shadowData>
+    </graphicData>
+    <rotatable>False</rotatable>
+    <fillPercent>0.1</fillPercent>
+    <designatorDropdown>FunctionalPropsPallet</designatorDropdown>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>10</Mass>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <size>(2,2)</size>
+    <costList>
+      <WoodLog>20</WoodLog>
+    </costList>
+    <defaultPlacingRot>North</defaultPlacingRot>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>1</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <overlayType>SumOfItemsPerCell</overlayType>
+      </li>
+    </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_PalletBarrelGreyDeep</defName>
+    <label>functional pallet with grey barrels</label>
+    <description>A grey metal barrel on a wooden pallet.</description>
+    <graphicData>
+      <texPath>Things/Building/IndustrialProps/PalletBarrels</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(3,3)</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.30, 0.40)</volume>
+      </shadowData>
+      <color>(123,123,123)</color>
+    </graphicData>
+    <fillPercent>0.6</fillPercent>
+    <designatorDropdown>FunctionalPropsPallet</designatorDropdown>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToBuild>400</WorkToBuild>
+      <Mass>50</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <defaultPlacingRot>North</defaultPlacingRot>
+    <size>(2,2)</size>
+    <costList>
+      <Steel>30</Steel>
+      <WoodLog>20</WoodLog>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>3</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_PalletBarrelYellowDeep</defName>
+    <label>functional pallet with yellow barrels</label>
+    <description>A yellow metal barrel on a wooden pallet.</description>
+    <graphicData>
+      <texPath>Things/Building/IndustrialProps/PalletBarrels</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(3,3)</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.30, 0.40)</volume>
+      </shadowData>
+      <color>(221,181,124)</color>
+    </graphicData>
+    <fillPercent>0.6</fillPercent>
+    <designatorDropdown>FunctionalPropsPallet</designatorDropdown>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToBuild>400</WorkToBuild>
+      <Mass>50</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <defaultPlacingRot>North</defaultPlacingRot>
+    <size>(2,2)</size>
+    <costList>
+      <Steel>30</Steel>
+      <WoodLog>20</WoodLog>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>3</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_PalletBarrelBlueDeep</defName>
+    <label>functional pallet with blue barrels</label>
+    <description>A blue metal barrel on a wooden pallet.</description>
+    <graphicData>
+      <texPath>Things/Building/IndustrialProps/PalletBarrels</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(3,3)</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.30, 0.40)</volume>
+      </shadowData>
+      <color>(127,138,167)</color>
+    </graphicData>
+    <fillPercent>0.6</fillPercent>
+    <designatorDropdown>FunctionalPropsPallet</designatorDropdown>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToBuild>400</WorkToBuild>
+      <Mass>50</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <defaultPlacingRot>North</defaultPlacingRot>
+    <size>(2,2)</size>
+    <costList>
+      <Steel>30</Steel>
+      <WoodLog>20</WoodLog>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>3</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_PalletBarrelGreenDeep</defName>
+    <label>functional pallet with green barrels</label>
+    <description>A green metal barrel on a wooden pallet.</description>
+    <graphicData>
+      <texPath>Things/Building/IndustrialProps/PalletBarrels</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(3,3)</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.30, 0.40)</volume>
+      </shadowData>
+      <color>(117,169,119)</color>
+    </graphicData>
+    <fillPercent>0.6</fillPercent>
+    <designatorDropdown>FunctionalPropsPallet</designatorDropdown>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToBuild>400</WorkToBuild>
+      <Mass>50</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <defaultPlacingRot>North</defaultPlacingRot>
+    <size>(2,2)</size>
+    <costList>
+      <Steel>30</Steel>
+      <WoodLog>20</WoodLog>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>3</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_PalletBarrelRedDeep</defName>
+    <label>functional pallet with red barrels</label>
+    <description>A red metal barrel on a wooden pallet.</description>
+    <graphicData>
+      <texPath>Things/Building/IndustrialProps/PalletBarrels</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(3,3)</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.30, 0.40)</volume>
+      </shadowData>
+      <color>(168,124,120)</color>
+    </graphicData>
+    <fillPercent>0.6</fillPercent>
+    <designatorDropdown>FunctionalPropsPallet</designatorDropdown>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToBuild>400</WorkToBuild>
+      <Mass>50</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <defaultPlacingRot>North</defaultPlacingRot>
+    <size>(2,2)</size>
+    <costList>
+      <Steel>30</Steel>
+      <WoodLog>20</WoodLog>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>3</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_ContainerGreyDeep</defName>
+    <label>functional grey cargo container</label>
+    <description>A grey metal cargo container. Cannot hold roof.</description>
+    <graphicData>
+      <texPath>Things/Building/IndustrialProps/ShippingContainer/ShippingContainer</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2.5,4)</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.30, 0.40)</volume>
+      </shadowData>
+      <color>(123,123,123)</color>
+    </graphicData>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>True</castEdgeShadows>
+    <designatorDropdown>FunctionalPropsContainer</designatorDropdown>
+    <blockWind>true</blockWind>
+    <fillPercent>1</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <pathCost>100</pathCost>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>100</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(2,4)</size>
+    <costList>
+      <Steel>125</Steel>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>4</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_ContainerGreenDeep</defName>
+    <label>functional cargo container</label>
+    <description>A metal cargo container. Impassable. Cannot hold roof.</description>
+    <graphicData>
+      <texPath>Things/Building/IndustrialProps/ShippingContainer/ShippingContainer</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2.5,4)</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.30, 0.40)</volume>
+      </shadowData>
+      <color>(117,169,119)</color>
+    </graphicData>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>True</castEdgeShadows>
+    <designatorDropdown>FunctionalPropsContainer</designatorDropdown>
+    <blockWind>true</blockWind>
+    <fillPercent>1</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <pathCost>100</pathCost>
+    <statBases>
+      <MaxHitPoints>600</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>100</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(2,4)</size>
+    <costList>
+      <Steel>125</Steel>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>4</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_ContainerRedDeep</defName>
+    <label>functional red cargo container</label>
+    <description>A red metal cargo container. Cannot hold roof.</description>
+    <graphicData>
+      <texPath>Things/Building/IndustrialProps/ShippingContainer/ShippingContainer</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2.5,4)</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.30, 0.40)</volume>
+      </shadowData>
+      <color>(168,124,120)</color>
+    </graphicData>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>True</castEdgeShadows>
+    <designatorDropdown>FunctionalPropsContainer</designatorDropdown>
+    <blockWind>true</blockWind>
+    <fillPercent>1</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>100</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(2,4)</size>
+    <costList>
+      <Steel>125</Steel>
+    </costList>
+    <pathCost>100</pathCost>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>4</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_ContainerYellowDeep</defName>
+    <label>functional yellow cargo container</label>
+    <description>A yellow metal cargo container. Cannot hold roof.</description>
+    <graphicData>
+      <texPath>Things/Building/IndustrialProps/ShippingContainer/ShippingContainer</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2.5,4)</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.30, 0.40)</volume>
+      </shadowData>
+      <color>(221,181,124)</color>
+    </graphicData>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>True</castEdgeShadows>
+    <designatorDropdown>FunctionalPropsContainer</designatorDropdown>
+    <blockWind>true</blockWind>
+    <fillPercent>1</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>100</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(2,4)</size>
+    <costList>
+      <Steel>125</Steel>
+    </costList>
+    <pathCost>100</pathCost>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>4</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_ContainerBlueDeep</defName>
+    <label>functional blue cargo container</label>
+    <description>A blue metal cargo container. Cannot hold roof.</description>
+    <graphicData>
+      <texPath>Things/Building/IndustrialProps/ShippingContainer/ShippingContainer</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2.5,4)</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.30, 0.40)</volume>
+      </shadowData>
+      <color>(127,138,167)</color>
+    </graphicData>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>True</castEdgeShadows>
+    <designatorDropdown>FunctionalPropsContainer</designatorDropdown>
+    <blockWind>true</blockWind>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>100</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(2,4)</size>
+    <costList>
+      <Steel>125</Steel>
+    </costList>
+    <pathCost>100</pathCost>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>4</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_SpacerContainerDeep</defName>
+    <label>functional spacer container</label>
+    <description>A medium sized, triple sealed, password protected box.</description>
+    <graphicData>
+      <texPath>Things/Building/SpacerProps/SpacerContainer/SpacerContainer</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <designatorDropdown>FunctionalPropsContainer</designatorDropdown>
+    <fillPercent>0.2</fillPercent>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>15</Steel>
+      <Plasteel>10</Plasteel>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>4</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+    <researchPrerequisites Inherit="False">
+      <li>ShipBasics</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_SpacerContainerLargeDeep</defName>
+    <label>functional spacer container large</label>
+    <description>A large sized, triple sealed, password protected box.</description>
+    <graphicData>
+      <texPath>Things/Building/SpacerProps/SpacerContainerLarge/SpacerContainerLarge</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <designatorDropdown>FunctionalPropsContainer</designatorDropdown>
+    <fillPercent>0.2</fillPercent>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>10</Mass>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <Steel>25</Steel>
+      <Plasteel>15</Plasteel>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>4</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+    <researchPrerequisites Inherit="False">
+      <li>ShipBasics</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_SpacerContainerStackDeep</defName>
+    <label>functional spacer container stack</label>
+    <description>A large stack of different sized, triple sealed, password protected boxes.</description>
+    <graphicData>
+      <texPath>Things/Building/SpacerProps/SpacerContainerStack</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <fillPercent>0.2</fillPercent>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>10</Mass>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <size>(2,2)</size>
+    <defaultPlacingRot>North</defaultPlacingRot>
+    <designatorDropdown>FunctionalPropsContainer</designatorDropdown>
+    <costList>
+      <Steel>40</Steel>
+      <Plasteel>25</Plasteel>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>4</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+    <researchPrerequisites Inherit="False">
+      <li>ShipBasics</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_SpacerStorageDeep</defName>
+    <label>functional advanced storage device</label>
+    <description>A large, multi-chamber advanced storage device.</description>
+    <graphicData>
+      <texPath>Things/Building/SpacerProps/SpacerStorage/SpacerStorage</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <fillPercent>0.35</fillPercent>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>50</WorkToBuild>
+      <Mass>15</Mass>
+      <Beauty>1</Beauty>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(3,1)</size>
+    <costList>
+      <Steel>50</Steel>
+      <Plasteel>35</Plasteel>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>8</maxNumberStacks>
+        <minTimeStoringTakes>15</minTimeStoringTakes>
+        <additionalTimeEachStack>15</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+    <researchPrerequisites Inherit="False">
+      <li>ShipBasics</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <!-- Kitchen Props -->
+  <ThingDef ParentName="VEFunctional" Name="MicrowaveDeep">
+    <defName>VFEPD_MicrowaveDeep</defName>
+    <label>functional microwave</label>
+    <description>A tabletop microwave device.</description>
+    <graphicData>
+      <texPath>Things/Building/KitchenProps/Microwave/Microwave</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1.5,1.5)</drawSize>
+    </graphicData>
+    <fillPercent>0.3</fillPercent>
+    <uiIconScale>0.75</uiIconScale>
+    <rotatable>true</rotatable>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>50</WorkToBuild>
+      <Mass>15</Mass>
+      <Beauty>1</Beauty>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>15</Steel>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>1</maxNumberStacks>
+        <minTimeStoringTakes>10</minTimeStoringTakes>
+        <additionalTimeEachStack>10</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Electricity</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional" Name="OvenDeep">
+    <defName>VFEPD_OvenDeep</defName>
+    <label>functional oven</label>
+    <description>A large oven.</description>
+    <graphicData>
+      <texPath>Things/Building/KitchenProps/Oven/Oven</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1.5,1.5)</drawSize>
+    </graphicData>
+    <rotatable>true</rotatable>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <fillPercent>0.5</fillPercent>
+    <uiIconScale>0.75</uiIconScale>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <WorkToBuild>50</WorkToBuild>
+      <Mass>25</Mass>
+      <Beauty>1</Beauty>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>20</Steel>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>2</maxNumberStacks>
+        <minTimeStoringTakes>10</minTimeStoringTakes>
+        <additionalTimeEachStack>10</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+    <researchPrerequisites Inherit="False">
+      <li>Electricity</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_FoodTrolleyDeep</defName>
+    <label>functional food trolley</label>
+    <description>A four wheeled trolley for empty plates and food trays.</description>
+    <graphicData>
+      <texPath>Things/Building/KitchenProps/FoodTrolley</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <drawSize>(1.2,1.2)</drawSize>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <fillPercent>0.1</fillPercent>
+    <uiIconScale>0.75</uiIconScale>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>50</WorkToBuild>
+      <Mass>5</Mass>
+      <Beauty>1</Beauty>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>5</Steel>
+    </costList>
+    <defaultPlacingRot>North</defaultPlacingRot>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>1</maxNumberStacks>
+        <minTimeStoringTakes>10</minTimeStoringTakes>
+        <additionalTimeEachStack>10</additionalTimeEachStack>
+        <overlayType>SumOfItemsPerCell</overlayType>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_WineRackDeep</defName>
+    <label>functional wine rack</label>
+    <description>A civilised wine storage rack.</description>
+    <graphicData>
+      <texPath>Things/Building/KitchenProps/WineRack/WineRack</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <rotatable>true</rotatable>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <fillPercent>0.3</fillPercent>
+    <uiIconScale>0.75</uiIconScale>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>50</WorkToBuild>
+      <Mass>15</Mass>
+      <Beauty>1</Beauty>
+      <Flammability>1</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <WoodLog>15</WoodLog>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>2</maxNumberStacks>
+        <minTimeStoringTakes>10</minTimeStoringTakes>
+        <additionalTimeEachStack>10</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+  </ThingDef>
+  <!-- Shelve Props -->
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_SteelCupboardDeep</defName>
+    <label>functional steel cupboard</label>
+    <description>An empty large cupboard.</description>
+    <graphicData>
+      <texPath>Things/Building/FurnitureProps/Cupboard/Cupboard</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.55,3.45)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+      <color>(105,105,105)</color>
+    </graphicData>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <designatorDropdown>FunctionalPropsCupboard</designatorDropdown>
+    <blockWind>true</blockWind>
+    <fillPercent>0.5</fillPercent>
+    <uiIconScale>0.75</uiIconScale>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>35</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <Steel>25</Steel>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>2</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_PlasteelCupboardDeep</defName>
+    <label>functional plasteel cupboard</label>
+    <description>An empty large cupboard.</description>
+    <graphicData>
+      <texPath>Things/Building/FurnitureProps/Cupboard/Cupboard</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.55,3.45)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+      <color>(160,178,181)</color>
+    </graphicData>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <designatorDropdown>FunctionalPropsCupboard</designatorDropdown>
+    <blockWind>true</blockWind>
+    <fillPercent>0.5</fillPercent>
+    <uiIconScale>0.75</uiIconScale>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>45</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <Plasteel>25</Plasteel>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>3</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_SilverCupboardDeep</defName>
+    <label>functional silver cupboard</label>
+    <description>An empty large cupboard.</description>
+    <graphicData>
+      <texPath>Things/Building/FurnitureProps/Cupboard/Cupboard</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.55,3.45)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+      <color>(180,173,150)</color>
+    </graphicData>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <designatorDropdown>FunctionalPropsCupboard</designatorDropdown>
+    <blockWind>true</blockWind>
+    <fillPercent>0.5</fillPercent>
+    <uiIconScale>0.75</uiIconScale>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <Silver>25</Silver>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>2</maxNumberStacks>
+        <minTimeStoringTakes>20</minTimeStoringTakes>
+        <additionalTimeEachStack>20</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_WoodenCupboardDeep</defName>
+    <label>functional wooden cupboard</label>
+    <description>An empty large cupboard.</description>
+    <graphicData>
+      <texPath>Things/Building/FurnitureProps/Cupboard/Cupboard</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.55,3.45)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+      <color>(133,97,67)</color>
+    </graphicData>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <designatorDropdown>FunctionalPropsCupboard</designatorDropdown>
+    <blockWind>true</blockWind>
+    <fillPercent>0.5</fillPercent>
+    <uiIconScale>0.75</uiIconScale>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>30</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <WoodLog>25</WoodLog>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>2</maxNumberStacks>
+        <minTimeStoringTakes>30</minTimeStoringTakes>
+        <additionalTimeEachStack>35</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_SteelCupboardDoubleDeep</defName>
+    <label>functional steel double cupboard</label>
+    <description>An empty large double cupboard.</description>
+    <graphicData>
+      <texPath>Things/Building/FurnitureProps/CupboardDouble/CupboardDouble</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.55,3.45)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+      <color>(105,105,105)</color>
+    </graphicData>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <designatorDropdown>FunctionalPropsCupboard</designatorDropdown>
+    <blockWind>true</blockWind>
+    <fillPercent>0.5</fillPercent>
+    <uiIconScale>0.75</uiIconScale>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>30</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <Steel>35</Steel>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>2</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_PlasteelCupboardDoubleDeep</defName>
+    <label>functional plasteel double cupboard</label>
+    <description>An empty large double cupboard.</description>
+    <graphicData>
+      <texPath>Things/Building/FurnitureProps/CupboardDouble/CupboardDouble</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.55,3.45)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+      <color>(160,178,181)</color>
+    </graphicData>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <designatorDropdown>FunctionalPropsCupboard</designatorDropdown>
+    <blockWind>true</blockWind>
+    <fillPercent>0.5</fillPercent>
+    <uiIconScale>0.75</uiIconScale>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>30</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <Plasteel>35</Plasteel>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>3</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_SilverCupboardDoubleDeep</defName>
+    <label>functional silver double cupboard</label>
+    <description>An empty large double cupboard.</description>
+    <graphicData>
+      <texPath>Things/Building/FurnitureProps/CupboardDouble/CupboardDouble</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.55,3.45)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+      <color>(180,173,150)</color>
+    </graphicData>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <designatorDropdown>FunctionalPropsCupboard</designatorDropdown>
+    <blockWind>true</blockWind>
+    <fillPercent>0.5</fillPercent>
+    <uiIconScale>0.75</uiIconScale>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <Silver>35</Silver>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>3</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachStack>25</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="VEFunctional">
+    <defName>VFEPD_WoodenCupboardDoubleDeep</defName>
+    <label>functional wooden double cupboard</label>
+    <description>An empty large double cupboard.</description>
+    <graphicData>
+      <texPath>Things/Building/FurnitureProps/CupboardDouble/CupboardDouble</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.55,3.45)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+      <color>(133,97,67)</color>
+    </graphicData>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <designatorDropdown>FunctionalPropsCupboard</designatorDropdown>
+    <blockWind>true</blockWind>
+    <fillPercent>0.5</fillPercent>
+    <uiIconScale>0.75</uiIconScale>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>40</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <WoodLog>35</WoodLog>
+    </costList>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>2</maxNumberStacks>
+        <minTimeStoringTakes>45</minTimeStoringTakes>
+        <additionalTimeEachStack>45</additionalTimeEachStack>
+        <showContents>false</showContents>
+        <overlayType>None</overlayType>
+      </li>
+    </comps>
+  </ThingDef>
+  <!-- Hot Meals -->
+  <ThingDef ParentName="MicrowaveDeep" Abstract="True">
+    <defName>VFEPD_MicrowaveHotMeals</defName>
+    <label>functional microwave (powered)</label>
+    <description>A tabletop microwave device which can quickly heat up your Meals. (HotMeals Mod)</description>
+  </ThingDef>
+  <ThingDef ParentName="OvenDeep" Abstract="True">
+    <defName>VFEPD_OvenHotMeals</defName>
+    <label>functional oven (powered)</label>
+    <description>A large oven which can heat up your Meals. (HotMeals Mod)</description>
+  </ThingDef>
+  <!-- DropDown Designator -->
+  <DesignatorDropdownGroupDef>
+    <defName>PoweredHotMeals</defName>
+  </DesignatorDropdownGroupDef>
+</Defs>

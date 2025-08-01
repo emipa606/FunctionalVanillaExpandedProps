@@ -2,6 +2,17 @@
   "Continued": true,
   "CanAdd": "0",
   "CanRemove": "2",
-  "PreviewVersion": "1.5",
-  "SocialImageSet": true
+  "PreviewVersion": "1.6",
+  "SocialImageSet": true,
+  "Patches": true,
+  "Defs": true,
+  "Assemblies": false,
+  "LinesOfCode": 0,
+  "LinesOfXML": 87819,
+  "CodeBaseSize": 78,
+  "LastXmlCleaning": "2025-08-01T21:33:21.2035522+02:00",
+  "SearchTags": [
+    " storage",
+    " addition"
+  ]
 }
