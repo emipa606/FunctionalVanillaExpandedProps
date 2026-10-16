@@ -11,6 +11,7 @@
     <li>1.4</li>
     <li>1.5</li>
     <li>1.6</li>
+    <li>1.7</li>
   </supportedVersions>
   <modDependencies>
     <li>
@@ -29,7 +30,7 @@
     <li>VanillaExpanded.VFEPropsandDecor</li>
     <li>dame.hotmeals</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+  <description>[img]https://img.litet.net/logos/Info.png[/img]
 Update of Primus the Conquerers mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2103216991
 
@@ -37,20 +38,20 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2103216991
 
 Not compatible with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2803450640]Docworld Functional Vanilla Props Expanded Continued[/url]
 
-[img]https://i.imgur.com/pufA0kM.png[/img]
+[img]https://img.litet.net/logos/Notice.png[/img]
 
 [table]
     [tr]
-        [td][url=https://discord.gg/h5TY6DA][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
-        [td][url=https://github.com/emipa606/FunctionalVanillaExpandedProps][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+        [td][url=https://discord.gg/h5TY6DA][img]https://img.litet.net/logos/Discord.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/FunctionalVanillaExpandedProps][img]https://img.litet.net/logos/Github.png[/img][/url][/td]
     [/tr]
     [tr]
-        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
-        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+        [td][img]https://img.litet.net/logos/SafeToAdd.png[/img][/td]
+        [td][img]https://img.litet.net/logos/RemoveMayWork.png[/img][/td]
     [/tr]
 [/table]
 	
-[img]https://i.imgur.com/Z4GOv8H.png[/img]
+[img]https://img.litet.net/logos/OriginalDescription.png[/img]
 [h1]I unfortunately don't have the time anymore to play and update my mods. If anyone wants to update/change the mod. Feel free to do that. :)[/h1]
 
 [h1]Description[/h1] 
@@ -73,17 +74,17 @@ A Patch for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=21109681
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1617282896]Deep Storage[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2102143149]Vanilla Furniture Expanded - Props and Decor[/url]
 
-[img]https://i.imgur.com/PwoNOj4.png[/img]
+[img]https://img.litet.net/logos/ReportingIssues.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
-[*] Post your error-log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
+[*] Always post your log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url]
 [*] For best support, please use the Discord-channel for error-reporting.
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
 [/list] 
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2574097280][img]https://img.shields.io/github/v/release/emipa606/FunctionalVanillaExpandedProps?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags:  storage,  addition</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.0</modVersion>
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2574097280][img]https://img.shields.io/github/v/release/emipa606/FunctionalVanillaExpandedProps?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | storage, addition</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.7.0</modVersion>
 </ModMetaData>
