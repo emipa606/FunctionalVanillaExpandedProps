@@ -1,5 +1,8 @@
 # Changelog for FunctionalVanillaExpandedProps
 
+1.7.1 - Updated dependency: LWM.DeepStorage -> LWM's Deep Storage
+
+
 1.7.0 - Mod updated for 1.7 and passed autotests
 
 

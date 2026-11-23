@@ -15,11 +15,6 @@
   </supportedVersions>
   <modDependencies>
     <li>
-      <packageId>LWM.DeepStorage</packageId>
-      <displayName>LWM's Deep Storage</displayName>
-      <steamWorkshopUrl>steam://url/CommunityFilePage/1617282896</steamWorkshopUrl>
-    </li>
-    <li>
       <packageId>VanillaExpanded.VFEPropsandDecor</packageId>
       <displayName>Vanilla Furniture Expanded - Props and Decor</displayName>
       <steamWorkshopUrl>steam://url/CommunityFilePage/2102143149</steamWorkshopUrl>
@@ -85,6 +80,57 @@ A Patch for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=21109681
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
 [/list] 
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2574097280][img]https://img.shields.io/github/v/release/emipa606/FunctionalVanillaExpandedProps?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | storage, addition</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.7.0</modVersion>
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2574097280][img]https://img.shields.io/github/v/release/emipa606/FunctionalVanillaExpandedProps?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | addition, storage</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.7.1</modVersion>
+  <modDependenciesByVersion>
+    <v1.1>
+      <li>
+        <packageId>LWM.DeepStorage</packageId>
+        <displayName>LWM's Deep Storage</displayName>
+        <steamWorkshopUrl>steam://url/CommunityFilePage/1617282896</steamWorkshopUrl>
+      </li>
+    </v1.1>
+    <v1.2>
+      <li>
+        <packageId>LWM.DeepStorage</packageId>
+        <displayName>LWM's Deep Storage</displayName>
+        <steamWorkshopUrl>steam://url/CommunityFilePage/1617282896</steamWorkshopUrl>
+      </li>
+    </v1.2>
+    <v1.3>
+      <li>
+        <packageId>LWM.DeepStorage</packageId>
+        <displayName>LWM's Deep Storage</displayName>
+        <steamWorkshopUrl>steam://url/CommunityFilePage/1617282896</steamWorkshopUrl>
+      </li>
+    </v1.3>
+    <v1.4>
+      <li>
+        <packageId>LWM.DeepStorage</packageId>
+        <displayName>LWM's Deep Storage</displayName>
+        <steamWorkshopUrl>steam://url/CommunityFilePage/1617282896</steamWorkshopUrl>
+      </li>
+    </v1.4>
+    <v1.5>
+      <li>
+        <packageId>LWM.DeepStorage</packageId>
+        <displayName>LWM's Deep Storage</displayName>
+        <steamWorkshopUrl>steam://url/CommunityFilePage/1617282896</steamWorkshopUrl>
+      </li>
+    </v1.5>
+    <v1.6>
+      <li>
+        <packageId>LWM.DeepStorage</packageId>
+        <displayName>LWM's Deep Storage</displayName>
+        <steamWorkshopUrl>steam://url/CommunityFilePage/1617282896</steamWorkshopUrl>
+      </li>
+    </v1.6>
+    <v1.7>
+      <li>
+        <packageId>LWM.DeepStorage</packageId>
+        <displayName>LWM's Deep Storage</displayName>
+        <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3532608331</steamWorkshopUrl>
+      </li>
+    </v1.7>
+  </modDependenciesByVersion>
 </ModMetaData>

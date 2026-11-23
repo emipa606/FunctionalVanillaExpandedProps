@@ -53,4 +53,4 @@ A Patch for [Thermodynamics - Hot Meals](https://steamcommunity.com/sharedfiles/
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/FunctionalVanillaExpandedProps?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2574097280) | storage, addition
+[![Image](https://img.shields.io/github/v/release/emipa606/FunctionalVanillaExpandedProps?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2574097280) | addition, storage
